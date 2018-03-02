@@ -1,0 +1,183 @@
+/*activeS.html页面的css样式设置*/
+*{
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../js/activeJS/fonts/iconfont.eot');
+    src: url('../../js/activeJS/fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../../js/activeJS/fonts/iconfont.woff') format('woff'),
+    url('../../js/activeJS/fonts/iconfont.ttf') format('truetype'),
+    url('../../js/activeJS/fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconActiveS{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sbgc{
+    width: 100%;
+    height: 500px;
+    background-image: url(../../images/az1/as1-1.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size:contain;
+
+}
+.collect{
+    position: absolute;
+    top: 83%;
+    right: 2%;
+    width: 10%;
+    margin: 0 auto;
+}
+.collect span{
+
+    width: 50%;
+    font-size: 40px;
+    color: #000000;
+    cursor: pointer;
+}
+.addressBt{
+    font-weight: bolder;
+}
+.address p{
+    margin: 0;
+}
+.address b{
+    color: #727272;
+    font-size: 20px;
+}
+.addressLeft{
+    margin-left: 30px;
+}
+.share{
+    position: relative;
+    top: 0;
+    left: 100%;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    /*line-height: 50px;*/
+    background-color:  black;
+}
+.share span{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.ww{
+position: absolute;
+    top: 0;
+    left: 20%;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+.s{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.share:hover .s{
+    opacity: 0;
+}
+.share:hover .ww{
+    color: white;
+    opacity: 1;
+}
+.m-height{
+    margin: 0 auto;
+    width: 120px;
+    height: 100px;
+    line-height: 100px;
+
+
+}
+.m-height span:last-child{
+    font-size: 16px;
+
+}
+.mBnt-color{
+    color: green;
+    font-size: 20px;
+
+}
+
+.modal-dialog {
+    margin: 250px auto;
+}
+.content1-1{
+    overflow: hidden;
+}
+/*============================================*/
+/*.blackLR{*/
+    /*!*padding: 0 80px;*!*/
+    /*background-color: black;*/
+/*}*/
+.whiteLR1{
+    padding: 40px 150px;
+    background-color: white;
+}
+.whiteLR{
+    padding: 0 150px;
+    background-color: white;
+}
+/*.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{*/
+    /*padding: 0;*/
+/*}*/
+.banner img{
+    margin-top: -110px;
+}
+.contentBt{
+    /*上下间距未设置*/
+}
+.content1Hr hr{
+    background-color: darkgrey;
+    margin-top: 8%;
+}
+.content1-text{
+    background-color: #f9f9f9;
+}
+
+.bt {
+    padding: 1% 2%;
+    color: #4b4b4b;
+}
+.FONT {
+    font-size: 14px;
+    color: grey;
+}
+.topbottonH{
+    margin: 20px -15px;
+}
+.contnet2-left{
+    margin-bottom: 10%;
+    margin-right:5%;
+
+}
+.contnet2-right{
+    margin-left:5%;
+}
+
+/*左多又少*/
+.contnet2-rightM{
+    margin-right:5%;
+}
+.contnet2-leftB{
+    margin-bottom: 10%;
+    margin-left:5%;
+
+}
+.contnet2-rightM{
+    margin-right:5%;
+}
+
+
+

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #3e3e3e;
+}
+.first{
+    position: relative;
+    box-shadow: 2px 2px 2px 2px #f6f6f6;
+}
+.first>span{
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    left: 2%;
+    top: 40%;
+}
+.reminder{
+    position: absolute;
+    width:700px;
+    height: 300px;
+    /*border: 1px solid;*/
+    top: 45%;
+    left: 15%;
+    z-index: 10;
+}
+.remText{
+    width: 100%;
+    /*margin: auto;*/
+    height: 100%;
+    background-color:#3e3e3e ;
+    border-radius: 5px;
+    display: none;
+}
+.remText>h4{
+    color: white;
+    margin-left: 5%;
+}
+.remText>p{
+    color: white;
+    margin-left: 5%;
+}
+.remind:hover{
+    color:#3e3e3e;
+}
+.remind:hover+ .remText{
+    display: block;
+}
+.change{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    border: 1px solid #bebebe;
+    top: 35%;
+    right: 3%;
+    border-radius: 2px;
+    z-index: 11;
+}
+.change>input{
+    width: 80%;
+    height: 100%;
+    border: 0;
+    outline: none;
+}
+.change>span{
+    display: inline-block;
+    /*border: 1px solid;*/
+    width: 50px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    background-color: #57997c;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.change>span:hover{
+    background-color: #498967;
+}
+.card1{
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-bottom: 1px dashed #e5e5e5;
+    /*border-left: 1px solid #c6c6c6;*/
+    /*border-right: 1px solid #c6c6c6;*/
+    /*border-bottom: 1px dashed #c6c6c6;*/
+    border-radius: 5px;
+    position: relative;
+}
+.card1 span:nth-of-type(1){
+    font-size: 26px;
+    margin-left: 10%;
+}
+.card1 span:nth-of-type(2){
+    margin-left:5%;
+}
+.kong{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    border-bottom:1px dashed #e3e3e3;
+}
+.card1 p:nth-of-type(1){
+    text-indent: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.card1 p:nth-of-type(2){
+    text-indent: 30px;
+}
+.full{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 15px;
+    /*border: 1px solid;*/
+    top: 20%;
+    right:0;
+    background-color: #f3f3f3;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.box1{
+    box-shadow: 1px 1px 1px 1px #f6f6f6;
+}

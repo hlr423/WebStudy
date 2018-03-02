@@ -1,0 +1,37 @@
+body{
+    background: #f6f6f6;
+    color: #313131;
+    display: block;
+    text-align: left;
+    min-width: 1250px;
+    vertical-align: baseline;
+    overflow-x: hidden;
+    letter-spacing: 1px;
+    font-family: "Microsoft YaHei",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased!important;
+}
+p{
+    font-size: 14px;
+    line-height: 24px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+}
+ h4{
+     line-height: 50px;
+     font-size: 20px;
+     color: #e56a69;
+     -webkit-margin-before: 1.33em;
+     -webkit-margin-after: 1.33em;
+     font-weight: bold;
+ }
+ p{
+     /*padding-top: 10px;*/
+     /*padding-left: 25px;*/
+     display: block;
+     vertical-align: baseline;
+     background: transparent;
+}
+ .mainText{
+     max-width: 1280px;
+     margin: 0 auto;
+ }

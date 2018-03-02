@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #3e3e3e;
+}
+.button>span{
+    width: 10%;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.button>span:hover{
+    background-color: #3e3e3e;
+    color: white;
+}
+.Text{
+    box-shadow: 2px 2px 2px 2px #f6f6f6;
+}
+.Text>a{
+    display: inline-block;
+    width: 20%;
+    height: 40px;
+    text-decoration: none;
+    color: #888888;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    /*border: 1px solid black;*/
+    text-align: center;
+    line-height: 40px;
+}

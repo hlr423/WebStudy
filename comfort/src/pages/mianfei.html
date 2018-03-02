@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Business.css"/>
+    <!--<link rel="stylesheet" href="font/iconfont.css"/>-->
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <title>预约定制</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../css/dingzhi/mianfei.css">
+</head>
+<body>
+
+@@include("header.html")
+
+<section>
+    <div class="container">
+        <div class="row div2 text-center">
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/3.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/4.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/5.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/6.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/7.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <img src="../images/dingzhi/dingzhi/1.jpg" alt="" class="img-responsive myimg">
+    <div class="container">
+        <div class="row text-center">
+            <ul class="ul1 text-center">
+                <li><a href="dingzhi.html">一件装家</a></li>
+                <li><a href="/baibiandingzhi.do">百变定制</a></li>
+                <li><a href="quanwu.html">全屋定制</a></li>
+                <li><a href="shijishi.html">找设计师</a></li>
+                <li><a href="#">定制攻略</a></li>
+                <li><a href="#">定制百科</a></li>
+                <li><a href="mianfei.html">在线免费设计</a></li>
+            </ul>
+        </div>
+        <div class="row mydiv"> <div class="mydiv1"></div></div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row text-center">
+            <div class="formDiv">
+                <form action="" method="post">
+                    <div class="col-xs-6">
+                        <h3 id="h311" onclick="myh22()">申请免费设计</h3>
+                    </div>
+                    <div class="col-xs-6">
+                        <h3 id="h322" onclick="myh33()">申请免费量尺</h3>
+                    </div>
+                    <div class="form-group" id="input1">
+                        <input type="password" class="form-control" id="exampleInputEmail300" placeholder="姓名">
+                        <select   id="exampleInputEmail3001">
+                            <option value="0">男士</option>
+                            <option value="1">女士</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail3" placeholder="手机号">
+                    </div>
+                    <div class="form-group yanzhen">
+                        <input type="text" class="form-control" id="exampleInputEmail30" placeholder="验证码">
+                        <button>获取验证码</button>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="设计要求">
+                    </div>
+                    <div class="form-group" id="myform">
+                        <div class="addpic">
+                            <button>点击上传户型图</button>
+                            <form>
+                                <input id="logoimg" class="addlogo" type="file" multiple accept="image/*" name="logo">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="form-group" id="input2">
+                        <select  id="sheng" onchange="changeCity()">
+                            <option value="0">四川省</option>
+                            <option value="1">广东省</option>
+                            <option value="2">湖北省</option>
+                            <option value="3">湖南省</option>
+                            <option value="4">山东省</option>
+                        </select>
+                        <select  id="shi">
+                            <option value="0">成都</option>
+                            <option value="1">乐山</option>
+                            <option value="2">绵阳</option>
+                            <option value="3">遂宁</option>
+                            <option value="4">攀枝花</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <a href="#">
+                            <button id="exampleInputPassword31">提交申请</button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <h3><span class="glyphicon glyphicon-play myspan"></span>客户实例</h3>
+            <p> 万千家庭口碑见证 尚品宅配设计师为约700万客户解决了多种家居问题</p>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <img src="../images/dingzhi/anli/1_01.jpg" alt="" class="img-responsive">
+                <div class="col-xs-5">
+                    <h4>9㎡青少年房</h4>
+                </div>
+                <div class="col-xs-5">
+                    <h4>郑先生</h4>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center">
+                <img src="../images/dingzhi/anli/2_01.jpg" alt="" class="img-responsive">
+                <div class="col-xs-5">
+                    <h4>8㎡书房</h4>
+                </div>
+                <div class="col-xs-5">
+                    <h4>蒋先生</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/dingzhi/mianfei.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

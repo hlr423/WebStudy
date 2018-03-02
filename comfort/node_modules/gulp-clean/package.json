@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "gulp-clean@^0.4.0",
+        "scope": null,
+        "escapedName": "gulp-clean",
+        "name": "gulp-clean",
+        "rawSpec": "^0.4.0",
+        "spec": ">=0.4.0 <0.5.0",
+        "type": "range"
+      },
+      "C:\\Users\\33005\\Desktop\\comfort"
+    ]
+  ],
+  "_cnpm_publish_time": 1515610953922,
+  "_from": "gulp-clean@>=0.4.0 <0.5.0",
+  "_hasShrinkwrap": false,
+  "_id": "gulp-clean@0.4.0",
+  "_inCache": true,
+  "_location": "/gulp-clean",
+  "_nodeVersion": "9.3.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/gulp-clean-0.4.0.tgz_1515610953007_0.38168173655867577"
+  },
+  "_npmUser": {
+    "name": "petervilja",
+    "email": "peter.vilja@gmail.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {
+    "clone-buffer": "1.0.0",
+    "cloneable-readable": "1.0.0",
+    "remove-trailing-separator": "1.1.0"
+  },
+  "_requested": {
+    "raw": "gulp-clean@^0.4.0",
+    "scope": null,
+    "escapedName": "gulp-clean",
+    "name": "gulp-clean",
+    "rawSpec": "^0.4.0",
+    "spec": ">=0.4.0 <0.5.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/gulp-clean/download/gulp-clean-0.4.0.tgz",
+  "_shasum": "3bc25e7084e641bbd7bde057cf90c01c50d95950",
+  "_shrinkwrap": null,
+  "_spec": "gulp-clean@^0.4.0",
+  "_where": "C:\\Users\\33005\\Desktop\\comfort",
+  "author": {
+    "name": "Peter Vilja",
+    "url": "https://github.com/peter-vilja"
+  },
+  "bugs": {
+    "url": "https://github.com/peter-vilja/gulp-clean/issues"
+  },
+  "dependencies": {
+    "fancy-log": "^1.3.2",
+    "plugin-error": "^0.1.2",
+    "rimraf": "^2.6.2",
+    "through2": "^2.0.3",
+    "vinyl": "^2.1.0"
+  },
+  "description": "A gulp plugin for removing files and folders.",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.19.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "3bc25e7084e641bbd7bde057cf90c01c50d95950",
+    "size": 2791,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/gulp-clean/download/gulp-clean-0.4.0.tgz"
+  },
+  "engines": {
+    "node": ">=0.9"
+  },
+  "gitHead": "1b2503e0b5bf7ad9568cd750a84e16931f5dc6ab",
+  "homepage": "https://github.com/peter-vilja/gulp-clean",
+  "keywords": [
+    "gulpplugin",
+    "clean",
+    "remove",
+    "delete"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "petervilja",
+      "email": "peter.vilja@gmail.com"
+    }
+  ],
+  "name": "gulp-clean",
+  "optionalDependencies": {},
+  "publish_time": 1515610953922,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peter-vilja/gulp-clean.git"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "version": "0.4.0"
+}

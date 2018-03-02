@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #3e3e3e;
+}
+.P-img{
+    display: inline-block;
+    margin-left: 5%;
+    width:80%;
+    height: 80%;
+    /*border: 1px solid;*/
+    border-radius: 100%;
+    overflow: hidden;
+    /*vertical-align: middle;*/
+}
+.username{
+    display: inline-block;
+    border: 1px solid;
+    font-size: 16px;
+    margin-left: 2%;
+    /*vertical-align: middle;*/
+}
+.head{
+    position: relative;
+    height: 204px;
+}
+.head>a{
+    text-decoration: none;
+    color:#3e3e3e ;
+    display: inline-block;
+    width: 13%;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    border: 1px solid #3e3e3e;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+.logoText{
+    width: 25%;
+    position: absolute;
+    top: 30%;
+}
+.head>span{
+    position: absolute;
+    top: 52%;
+    left: 23%;
+}
+.RankList{
+    width:75%;
+    height: 6px;
+    /*border: 1px solid #3e3e3e;*/
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    background-color: #e2e2e2;
+    border-radius:50px;
+}
+
+.RankList>span{
+    display: inline-block;
+    width: 25%;
+    height: 6px;
+    background-color:#e56a69;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.gradeText{
+    position: absolute;
+    /*border: 1px solid;*/
+    top: 82%;
+    left: 5%;
+}
+.gradeText>a{
+    text-decoration: none;
+    color: #e56a69;
+}
+.linear1{
+    width: 90%;
+    height: 5px;
+    background-color: #f6f6f6;
+    border-radius: 50px;
+    margin-left: 2%;
+}
+.mid-1{
+    margin-left: 4%;
+}
+.mid-1>img{
+    width:10px;
+    margin-top: -5px;
+}
+.mid-1>span{
+    font-size: 18px;
+    margin-left: 5px;
+    /*font-weight: bold;*/
+}
+.mid-1>a{
+    text-decoration: none;
+    color:#e56a69 ;
+    font-size: 16px;
+    margin-left: 5%;
+}
+.row{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hoverBox{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.member-box{
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    background-color: #e23d4b;
+    border-radius: 50px;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+}
+.hoverSB{
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.hoverSB:hover{
+    background-color: #f6f6f6;
+}
+.hoverSB:hover .downJ{
+    opacity: 1;
+    transform: rotate(180deg);
+}
+.downJ{
+    opacity: 0;
+    transition: all .4s linear;
+}
+.well{
+    margin-bottom: 0;
+    background-color: #fbfbfb;
+}
+.downText1{
+    position: relative;
+}
+.downText1>a{
+    display: inline-block;
+    text-decoration: none;
+    width: 13%;
+    height: 30px;
+    line-height: 30px;
+    background-color:#e23d4b;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+.rightPic{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color:#e23d4b;
+    color: white;
+    line-height: 15px;
+    text-align: center;
+    border-radius:100%;
+}
+.wave1{
+    width: 17%;
+    height: 50px;
+    border: 1px solid #e23d4b;
+    border-right: none;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.wave1>img{
+    height: 50px;
+    float: right;
+}
+.wave1>p:nth-of-type(1){
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: inline-block;
+}
+.wave1>p:nth-of-type(2){
+    margin-left: 5%;
+    display: inline-block;
+}
+.downText2 div:nth-of-type(2){
+    margin-top: 1%;
+}
+.downText2{
+    position: relative;
+}
+.downText2>a{
+    display: inline-block;
+    text-decoration: none;
+    width: 13%;
+    height: 30px;
+    line-height: 30px;
+    background-color:#3e3e3e;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 65%;
+    right: 10%;
+}
+.jumpA>a{
+    display: inline-block;
+    text-decoration: none;
+    color:#3e3e3e ;
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #3e3e3e;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all .2s linear;
+}
+.jumpA>a:hover{
+    background-color:#3e3e3e;
+    color: white;
+}

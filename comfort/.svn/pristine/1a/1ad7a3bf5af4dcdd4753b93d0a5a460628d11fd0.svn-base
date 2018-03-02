@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/person/Payconfirm.css"/>
+    <link rel="stylesheet" href="../css/person/CommonList.css">
+    <!--<link rel="stylesheet" href="../fonts/iconfont.css"/>-->
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <title>订单结算</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+@@include("header.html")
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-xs-12">
+                <div class="row">
+                    <div class="head">
+                        <a href="ShopCar.html">
+                            <i class="glyphicon glyphicon-menu-left text-gray" aria-hidden="true"></i>
+                            返回购物车修改
+                        </a>
+                        <span>订单确认<i class="glyphicon glyphicon-menu-right" aria-hidden="true"></i></span>
+                        <span class="text-gray">订单支付</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="text1">
+                        <p class="text-gray"><span class="yuan">¥</span>已享受满¥2800减¥280，再买¥101可享受减¥300</p>
+                        <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4>单品</h4>
+                    <div class="goodBox">
+                        <div class="goodText">
+                            <a class="goodJump" href="">
+                                <img src="../images/person-member/shopcar1.jpg" class="img-responsive" alt="">
+                                <div></div>
+                            </a>
+                            <div class="introduce">
+                                <span class="goodsName">画板餐桌－长桌</span>
+                                <span class="dateTime text-gray">预计2018-01-27前发货</span>
+                                <span>胡桃木色</span>
+                                <span class="goodsPrice">¥2899</span>
+                                <span>x1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="mid-1">
+                <div class="mid-1-text">
+                    <br>
+                    <br>
+                    <br>
+                    <h2>我们在全国大部分城市免费配送请问我们要送到哪里？</h2>
+                    <br>
+                    <br>
+                    <span class="address">四川成都市双流区某某某 <i>√</i></span>
+                    <span class="default">默认</span>
+                    <a href="" id="pageJump">+添加收货地址</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-xs-12">
+                <div class="mid-2">
+                    <h3>我们致力为您提供零时差的服务和售后</h3>
+                    <p class="text-gray">Confort已开通全国主要城市<b>免费配送</b>，并与国内专业家具物流方及售后服务公司合作，为你提供最好的配送及售后服务。</p>
+                    <p class="text-gray">具体服务标准如下：
+                        <br>
+                        1. 包含北上广深等全国166个城市、528个区县免费配送并上门安装；
+                        <br>
+                        2. 家居用品全国包邮。
+                    </p>
+                    <p class="text-gray">（备注：<b>新疆、西藏、青海</b>三个省份除外，其他省份内物流运输网点无法覆盖的远郊区县不在免费配送范围，请在购买产品时与造作确认）。</p>
+                    <p class="text-gray">家具产品单价较高，为避免您的损失，请您 <b>按造作收货流程收货</b>，详情请查看配送与售后说明。</p>
+                    <p class="choice text-gray">
+                        <input type="checkbox" id="test"/>
+                        我已阅读并同意《造作物流及售后协议》
+                    </p>
+                    <a href="" id="jumpPage">了解更多售后和服务详情<i class="glyphicon glyphicon-menu-right" aria-hidden="true" style="color: white"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mid-3">
+                <div class="col-md-10 col-md-offset-1 col-xs-12">
+                    <div class="mid-3-text">
+                        <br>
+                        <h3>您是否需要发票？</h3>
+                        <div class="mid-3-text1">
+                            <span></span>
+                            <p>我要开发票<i class="glyphicon glyphicon-menu-right" aria-hidden="true"></i></p>
+                        </div>
+                        <h3>如果还有别的需要，不妨备注一句</h3>
+                        <br>
+                        <textarea name="" id="Beizhu" cols="" rows="" placeholder="在此处添加备注"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mid-4">
+                <span>¥2519</span>
+                <span class="text-gray">已优惠¥380</span>
+                <span>•</span>
+                <span class="text-gray">使用¥100优惠券</span>
+                <span>使用其它优惠券<i class="glyphicon glyphicon-menu-right" aria-hidden="true" style="color:#5bb688"></i></span>
+                <a href="" id="payJump">结算<i class="glyphicon glyphicon-menu-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/person/Payconfirm.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

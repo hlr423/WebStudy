@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/person/Mydiscount.css"/>
+    <link rel="stylesheet" href="../css/person/CommonList.css">
+    <!--<link rel="stylesheet" href="../fonts/iconfont.css"/>-->
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <title>我的优惠券</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+@@include("header.html")
+
+<section class="mainBody">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-xs-2">
+                <div class="navBox text-center">
+                    <ul>
+                        <!--<li style="height: 60px;line-height: 60px">当前位置 | 会员中心</li>-->
+                        <li><a href="Person-Member1.html">会员中心 <span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Myorder1.html">我的订单<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Invite-award.html">邀请奖励<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mydiscount.html">我的优惠券<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Myinformation.html">我的消息<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mypic.html">我的晒单<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mydata.html">我的资料<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mycollect1.html">我的收藏<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-xs-10">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1">
+                        <div class="row first">
+                            <br>
+                            <br>
+                            <span>我的优惠券</span>
+                            <div class="reminder">
+                                <span class="glyphicon glyphicon-info-sign text-gray remind" style="font-size: 20px" aria-hidden="true"></span>
+                                <div class="remText">
+                                    <br>
+                                    <h4>优惠券使用说明</h4>
+                                    <p>1. 优惠券分为通用券、定向券、满减券和折扣券。除特殊说明外，通用券可用于全部商品，任意订单可用；定向券只能在购买指定商品时使用；满减券可用于全部商品，但需要订单金额满足条件；
+                                        折扣券可用于全部商品，任意订单可用，如折扣券设有最高抵用限制，则用券优惠金额以最高抵用金额为上限</p>
+                                    <p>2. 通用券、定向券均可分多次使用，直至优惠金额用完</p>
+                                    <p>3. 满减券和折扣券不能与其他优惠券同时使用。一个订单最多只能使用一张满减券或一张折扣券</p>
+                                    <p>4. 系统会自动选择优惠力度最大的优惠券，你也可以选择要使用哪张优惠券</p>
+                                    <p>5. 如发生退货，通用券、定向券会退回相应的金额，满减券和折扣券只有整张订单全部退货后才能退回</p>
+                                    <p>6. 如有任何疑问，欢迎咨询在线客服或致电 400-6636-926</p>
+                                </div>
+                            </div>
+                            <div class="change">
+                                <input type="text" name="chText" id="chText" placeholder="  请输入优惠券兑换码">
+                                <span>兑换</span>
+                            </div>
+                            <br>
+                            <br>
+                            <!--<hr>-->
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="card1">
+                                    <br>
+                                    <span class="text-red">¥500</span>
+                                    <span class="text-gray">Z1升级礼</span>
+                                    <p>满¥10000可用</p>
+                                    <div class="full text-gray">满减券</div>
+                                    <div class="kong"></div>
+                                    <br>
+                                    <p class="text-gray">有效期至2018-02-18</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="card1">
+                                    <br>
+                                    <span class="text-red">¥250</span>
+                                    <span class="text-gray">Z1升级礼</span>
+                                    <p>满¥5000可用</p>
+                                    <div class="full text-gray">满减券</div>
+                                    <div class="kong"></div>
+                                    <br>
+                                    <p class="text-gray">有效期至2018-02-18</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="card1">
+                                    <br>
+                                    <span class="text-red">¥100</span>
+                                    <span class="text-gray">Z1升级礼</span>
+                                    <p>满¥2000可用</p>
+                                    <div class="full text-gray">满减券</div>
+                                    <div class="kong"></div>
+                                    <br>
+                                    <p class="text-gray">有效期至2018-02-18</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="card1">
+                                    <br>
+                                    <span class="text-red">¥250</span>
+                                    <span class="text-gray">Z1升级礼</span>
+                                    <p>满¥500可用</p>
+                                    <div class="full text-gray">满减券</div>
+                                    <div class="kong"></div>
+                                    <br>
+                                    <p class="text-gray">有效期至2018-02-18</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="card1">
+                                    <br>
+                                    <span class="text-red">¥10</span>
+                                    <span class="text-gray">Z1升级礼</span>
+                                    <p>满¥200可用</p>
+                                    <div class="full text-gray">满减券</div>
+                                    <div class="kong"></div>
+                                    <br>
+                                    <p class="text-gray">有效期至2018-02-18</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

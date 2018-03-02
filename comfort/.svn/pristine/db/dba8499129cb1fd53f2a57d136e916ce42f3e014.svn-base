@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Business.css"/>
+    <!--<link rel="stylesheet" href="font/iconfont.css"/>-->
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <title>芬兰主题</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../css/dingzhi/gonglie.css">
+</head>
+<body>
+
+@@include("header.html")
+
+<section>
+    <div class="container">
+        <div class="row div2 text-center">
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/3.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/4.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/5.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/6.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/7.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row text-center">
+            <img src="../images/dingzhi/gonglie/36.png" alt="" class="mysrc1">
+        </div>
+        <div class="row mydiv3">
+            <div class="col-xs-6 myimg">
+                <img src="../images/dingzhi/gonglie/4_03.jpg" alt="" class="img-responsive mygaibian">
+            </div>
+            <div class="col-xs-6 text-center">
+                <img src="../images/dingzhi/gonglie/46.png" alt="">
+                <div class="col-xs-5 col-xs-offset-1">
+                    <ul class="myul1">
+                        <li onmouseover="myyiru1()">
+                            <img src="../images/dingzhi/gonglie/38.png" alt="" class="img-responsive">
+                            <h3>北极光</h3>
+                        </li>
+                        <li onmouseover="myyiru2()">
+                            <img src="../images/dingzhi/gonglie/39.png" alt="" class="img-responsive">
+                            <h3>午夜阳光</h3>
+                        </li>
+                        <li onmouseover="myyiru3()">
+                            <img src="../images/dingzhi/gonglie/40.png" alt="" class="img-responsive">
+                            <h3>苏兰桑拿</h3>
+                        </li>
+                        <li onmouseover="myyiru4()">
+                            <img src="../images/dingzhi/gonglie/41.png" alt="" class="img-responsive">
+                            <h3>纯净的湖泊</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1">
+                    <ul class="myul1 myul2">
+                        <li onmouseover="myyiru5()">
+                            <img src="../images/dingzhi/gonglie/42.png" alt="">
+                            <h3>原生态的大自然</h3>
+                        </li>
+                        <li onmouseover="myyiru6()">
+                            <img src="../images/dingzhi/gonglie/43.png" alt="">
+                            <h3>滑雪胜地和雪道</h3>
+                        </li>
+                        <li onmouseover="myyiru7()">
+                            <img src="../images/dingzhi/gonglie/44.png" alt="">
+                            <h3>苏兰设计</h3>
+                        </li>
+                        <li onmouseover="myyiru8()">
+                            <img src="../images/dingzhi/gonglie/45.png" alt="">
+                            <h3>圣诞老人</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center ">
+            <img src="../images/dingzhi/gonglie/35.png" alt="" class="mysrc1">
+        </div>
+        <div class="row mydiv5">
+            <div class="col-xs-2 col-xs-offset-2 mydiv4">
+                <img src="../images/dingzhi/gonglie/33.png" alt="" class="img-responsive mypo1">
+                <img src="../images/dingzhi/gonglie/32.png" alt="" class="img-responsive mypo2">
+            </div>
+            <div class="col-xs-4 text-center mydiv4">
+                <img src="../images/dingzhi/gonglie/8.png" alt="" class="img-responsive mypo5">
+            </div>
+            <div class="col-xs-2 mydiv4">
+                <img src="../images/dingzhi/gonglie/31.png" alt="" class="img-responsive mypo3">
+                <img src="../images/dingzhi/gonglie/29.png" alt="" class="img-responsive mypo4">
+            </div>
+        </div>
+
+
+        <div class="row text-center ">
+            <img src="../images/dingzhi/gonglie/30.png" alt="" class="mysrc1">
+        </div>
+        <div class="row mydiv6">
+            <div class="col-xs-4 text-right">
+                <img src="../images/dingzhi/gonglie/12.png" alt="" class="img-responsive mybieji1">
+            </div>
+            <div class="col-xs-8 text-center">
+                <img src="../images/dingzhi/gonglie/47.png" alt="" class="img-responsive mybieji2">
+                <img src="../images/dingzhi/gonglie/48.png" alt="" class="img-responsive mybieji2">
+                <img src="../images/dingzhi/gonglie/49.png" alt="" class="img-responsive mybieji2">
+                <img src="../images/dingzhi/gonglie/50.png" alt="" class="img-responsive mybieji2">
+            </div>
+            <div class="row">
+                <div class="col-xs-4 text-right mybefo1">
+                    <img src="../images/dingzhi/gonglie/23.png" alt="" class="img-responsive mybieji3">
+                </div>
+                <div class="col-xs-4 text-right mybefo2">
+                    <img src="../images/dingzhi/gonglie/17.png" alt="" class="img-responsive mybieji3">
+                </div>
+                <div class="col-xs-4 text-right mybefo3">
+                    <img src="../images/dingzhi/gonglie/22.png" alt="" class="img-responsive mybieji3">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row text-center ">
+            <img src="../images/dingzhi/gonglie/52.png" alt="" class="mysrc1">
+        </div>
+        <div class="row">
+            <div class="col-xs-8 text-center">
+                <img src="../images/dingzhi/gonglie/53.png" alt="" class="img-responsive mycchs2">
+                <img src="../images/dingzhi/gonglie/54.png" alt="" class="img-responsive mycchs2">
+                <img src="../images/dingzhi/gonglie/55.png" alt="" class="img-responsive mycchs2">
+                <img src="../images/dingzhi/gonglie/56.png" alt="" class="img-responsive mycchs2">
+            </div>
+            <div class="col-xs-4 text-right">
+                <img src="../images/dingzhi/gonglie/51.png" alt="" class="img-responsive mycchs1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4 text-right mybefo4">
+                <img src="../images/dingzhi/gonglie/24.png" alt="" class="img-responsive mycchs3">
+            </div>
+            <div class="col-xs-4 text-right mybefo5">
+                <img src="../images/dingzhi/gonglie/16.png" alt="" class="img-responsive mycchs3">
+            </div>
+            <div class="col-xs-4 text-right mybefo6">
+                <img src="../images/dingzhi/gonglie/18.png" alt="" class="img-responsive mycchs3">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="row text-center ">
+            <img src="../images/dingzhi/gonglie/61.png" alt="" class="mysrc1">
+        </div>
+        <div class="row mydiv6">
+            <div class="col-xs-4 text-right">
+                <img src="../images/dingzhi/gonglie/14.png" alt="" class="img-responsive myshufang1">
+            </div>
+            <div class="col-xs-8 text-center">
+                <img src="../images/dingzhi/gonglie/57.png" alt="" class="img-responsive myshufang2">
+                <img src="../images/dingzhi/gonglie/58.png" alt="" class="img-responsive myshufang2">
+                <img src="../images/dingzhi/gonglie/59.png" alt="" class="img-responsive myshufang2">
+                <img src="../images/dingzhi/gonglie/60.png" alt="" class="img-responsive myshufang2">
+            </div>
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-1 mybefo7">
+                    <img src="../images/dingzhi/gonglie/27.png" alt="" class="img-responsive myshufang3">
+                </div>
+                <div class="col-xs-4 col-xs-offset-1 mybefo8">
+                    <img src="../images/dingzhi/gonglie/28.png" alt="" class="img-responsive myshufang3">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row text-center ">
+            <img src="../images/dingzhi/gonglie/62.png" alt="" class="mysrc1">
+        </div>
+        <div class="row">
+            <div class="col-xs-8 text-center">
+                <img src="../images/dingzhi/gonglie/63.png" alt="" class="img-responsive myyuanshi2">
+                <img src="../images/dingzhi/gonglie/64.png" alt="" class="img-responsive myyuanshi2">
+                <img src="../images/dingzhi/gonglie/65.png" alt="" class="img-responsive myyuanshi2">
+                <img src="../images/dingzhi/gonglie/66.png" alt="" class="img-responsive myyuanshi2">
+            </div>
+            <div class="col-xs-4 text-right">
+                <img src="../images/dingzhi/gonglie/11.png" alt="" class="img-responsive myyuanshi1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4 col-xs-offset-1 mybefo9">
+                <img src="../images/dingzhi/gonglie/25.png" alt="" class="img-responsive myyuanshi3">
+            </div>
+            <div class="col-xs-4 col-xs-offset-1 mybefo10">
+                <img src="../images/dingzhi/gonglie/26.png" alt="" class="img-responsive myyuanshi3">
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/dingzhi/gonglie.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

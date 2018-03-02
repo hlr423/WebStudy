@@ -1,0 +1,19 @@
+命名规范：产品英文名_   开头（使用驼峰）
+产品英文名_front  ----  展示页图片
+
+_a   ---- 尺寸图
+_b   ---- 选择图 
+_color  ---- 颜色图
+
+CofaL_qfbsrz_b
+CofaL_qfbdrz_b
+CofaL_qfbjd_b
+CofaL_jzbsrz_b
+CofaL_jzbdrz_b
+
+
+_l  _r   ----左右半图
+
+CofaL_show_1    ---- 细节展示图
+CofaL_scene_2   ---- 场景展示图
+

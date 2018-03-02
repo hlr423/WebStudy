@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("../../images/login/loginBg1.jpg") no-repeat;
+    background-position: center center;
+}
+
+.form-group>input {
+    width: 80%;
+    /*text-align: center;*/
+    height: 50px;
+    margin-left: 10%;
+}
+h3{
+    padding: 10px 0;
+    color: white;
+}
+.btn-default{
+    width: 80%;
+    height: 50px;
+    border: none;
+}
+#zhuc{
+    background-color: #202020;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 5%;
+
+}
+#zhuc:hover{
+    background-color: #212121;
+    color: white;
+}
+.a{
+    width: 40%;
+    margin-top:4%;
+    background-color: white;
+    line-height: 36px;
+}
+.a:hover{
+    background-color: #202020;
+    color: white;
+}
+button{
+    border: none;
+}
+.logo{
+    max-width: 150px;
+}
+
+.tubiao{
+    width: 15%;
+}
+
+.loginMain{
+    width: 60%;
+    padding: 40px 40px;
+    margin: 10% auto;
+    background: rgba(254, 254, 254, 0.3);
+}
+.text-main{
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+}
+.wangji{
+    text-align: right;
+    padding: 0 55px 10px;
+
+}
+.wangji a{
+    color: white;
+}
+.wangji a:link{
+    text-decoration: none;
+}
+.wangji a:visited{
+    text-decoration: none;
+}
+.wangji a:hover{
+    text-decoration: none;
+    color: white;
+}
+.wangji a:active{
+    text-decoration: none;
+}
+.loginBtn:hover{
+    color: white;
+    background: #202020;
+}

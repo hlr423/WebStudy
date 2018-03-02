@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/person/Mydata.css"/>
+    <link rel="stylesheet" href="../css/person/CommonList.css">
+    <!--<link rel="stylesheet" href="../fonts/iconfont.css"/>-->
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <title>我的资料</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+@@include("header.html")
+
+<section class="mainBody">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-xs-2">
+                <div class="navBox text-center">
+                    <ul>
+                        <!--<li style="height: 60px;line-height: 60px">当前位置 | 会员中心</li>-->
+                        <li><a href="Person-Member1.html">会员中心 <span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Myorder1.html">我的订单<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Invite-award.html">邀请奖励<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mydiscount.html">我的优惠券<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Myinformation.html">我的消息<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mypic.html">我的晒单<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mydata.html">我的资料<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mycollect1.html">我的收藏<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-xs-10">
+                <div class="row bigBox">
+                    <div class="smBox1">
+                        <div class="col-xs-10 col-xs-offset-1">
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <img src="../images/person-member/Mydata1.jpg" class="img-circle img-responsive" alt="">
+                                </div>
+                                <div class="col-xs-4 DataText">
+                                    <br>
+                                    <br>
+                                    <h4>Mr_好先生</h4>
+                                    <img src="../images/person-member/Mydata2.png" alt="">
+                                    <p>一级Confort生活家</p>
+                                </div>
+                                <div class="col-xs-5 col-xs-offset-1 halfR">
+                                    <h4>账号绑定</h4>
+                                    <span>
+                                        <img src="../images/person-member/set.png" onclick="changePage()" alt="">
+                                    </span>
+                                    <div class="smPic">
+                                        <div class="ImgBox">
+                                            <img src="../images/person-member/duanxin.png" alt="">
+                                        </div>
+                                        <span>|</span>
+                                        <div class="ImgBox">
+                                            <img src="../images/person-member/weixin.png" alt="">
+                                        </div>
+                                        <span>|</span>
+                                        <div class="ImgBox">
+                                            <img src="../images/person-member/phone.png" alt="">
+                                        </div>
+                                        <span>绑定更多</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <!--<hr>-->
+                            <br>
+                            <div class="row box1">
+                                <div class="col-xs-6 mid2">
+                                    <h3>管理银行卡</h3>
+                                    <br>
+                                    <a href="https://cashier.95516.com/b2c/authpay/Activate.action?transNumber=9a9881b0bdd243db8290ffd9f4a83a90">
+                                        <span class="glyphicon glyphicon-plus jia" aria-hidden="true"></span>
+                                        添加银行卡
+                                    </a>
+                                </div>
+                                <div class="col-xs-6">
+                                    <h3>我的收货地址</h3>
+                                    <br>
+                                    <div>
+                                        <span>1</span>:
+                                        <span>四川 成都 双流县 四川省成都市双流区</span>/
+                                        <span>收货人：唐铭键</span>/
+                                        <span>15892238161</span>
+                                        <span class="moBox">默认</span>
+                                    </div>
+                                    <br>
+                                    <div class="address">
+                                        <span class="glyphicon glyphicon-plus jia" aria-hidden="true" style="color: white"></span>
+                                        添加新地址
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="smBox2">
+                        <div class="col-md-10 col-md-offset-1 col-xs-12">
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <div class="headImg">
+                                        <img src="../images/person-member/Mydata1.jpg" class="img-responsive img-circle" onclick="picChange()" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-10">
+                                    <div class="headText">
+                                        <span class="picText" onclick="picChange()">编辑头像</span>
+                                        <input type="file" id="file" style="display: none">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="userBox">
+                                    <span>昵称：</span>
+                                    <input type="text" id="username" value="Mr_好先生">
+                                </div>
+                                <br>
+                                <div class="sexBox">
+                                    <span>性别：</span>
+                                    <span class="sex">男</span>
+                                </div>
+                                <br>
+                                <div class="birthBox">
+                                    <span>生日：</span>
+                                    <span class="birthDate">1995-12-01</span>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <a href="Mydata.html" id="confirm">确认</a>
+                                <span class="revision">修改账户密码 ></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/person/Mydata.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

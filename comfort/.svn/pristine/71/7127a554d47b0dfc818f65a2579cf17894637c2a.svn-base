@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>找回密码</title>
+    <link rel="stylesheet" href="../css/loginCss/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/loginCss/zhuce.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/loader.css">
+</head>
+<body>
+
+@@include("header.html")
+
+<div class="container">
+    <div class="row text-center">
+        <div class="formDiv">
+            <form action="" method="post">
+                <h3>设置新密码</h3>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="手机号">
+                </div>
+                <div class="form-group yanzhen">
+                    <input type="text" class="form-control" id="exampleInputEmail30" placeholder="验证码">
+                    <button>获取验证码</button>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputEmail300" placeholder="请输入6—12位数字或字母密码">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="确认密码">
+                </div>
+                <div class="form-group">
+                    <a href="index.html">
+                        <button id="exampleInputPassword31">确定重置密码</button>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

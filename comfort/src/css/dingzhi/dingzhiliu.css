@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    background-color: #a0e3ff;
+    position: relative;
+}
+nav>img{
+    position: absolute;
+}
+#page_context{
+    -webkit-transition: 1.5s ease all;
+}
+#page{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.myming1{
+    top:10%;
+    left: 33%;
+}
+.myming2{
+    top: 30%;
+    left: 20%;
+}
+.myming5{
+    top: 68%;
+    left: 12%;
+}
+.myming3{
+    top: 40%;
+    left: 75%;
+}
+.myming4{
+    top: 51.5%;
+    left: 50%;
+}
+.myming6{
+    left: 75%;
+    -webkit-animation: myMove 2s linear infinite alternate ;
+}
+.myming7{
+    top: 50%;
+    -webkit-animation: myMove1 2s linear infinite alternate ;
+}
+.myming8{
+    top: 30%;
+    -webkit-animation: myMove2 2s linear infinite alternate ;
+}
+.myming9{
+    top: 45%;
+    -webkit-animation: myMove3 2s linear infinite alternate ;
+}
+.myming10{
+    top: 40%;
+    -webkit-animation: myMove4 2s linear infinite alternate ;
+}
+.myming11{
+    top: 58%;
+    left: 65%;
+}
+@-webkit-keyframes myMove {
+    from{
+        top: 62%;
+    }
+    to{
+        top:66%;
+    }
+}
+@-webkit-keyframes myMove1 {
+    from{
+        left: 75%;
+    }
+    to{
+        left: 78%;
+    }
+}
+@-webkit-keyframes myMove2 {
+    from{
+        left: 36%;
+    }
+    to{
+        left: 39%;
+    }
+}
+@-webkit-keyframes myMove3 {
+    from{
+        left: 15%;
+    }
+    to{
+        left: 20%;
+    }
+}
+@-webkit-keyframes myMove4 {
+    from{
+        left: 53%;
+    }
+    to{
+        left: 57%;
+    }
+}
+.div1{
+    width: 100%;
+    background-color: #fa8872;
+    position: relative;
+}
+.div1 img{
+    position: absolute;
+}
+.myimg1{
+    top: 50%;
+    left: 30%;
+}
+.myimg2{
+    top: 45%;
+    left: 54%;
+}
+.myimg3{
+    top: 40%;
+    left: 40%;
+}
+.myimg4{
+    top: 50%;
+    left: 45%;
+}
+.myimg5{
+    top: 35%;
+    left: 50%;
+}
+.myimg6{
+    top: 50%;
+    left: 62%;
+}
+.myimg7{
+    top: 60%;
+    left: 40%;
+}
+.myimg8{
+    top: 70%;
+    left: 70%;
+    -webkit-animation: myMdiv 2s linear infinite alternate ;
+}
+.myimg9{
+    top:10%;
+    left: 33%;
+}
+@-webkit-keyframes myMdiv {
+    from{
+        top: 68%;
+    }
+    to{
+        top: 72%;
+    }
+}
+.div2{
+    width: 100%;
+    background-color: #87ded6;
+    position: relative;
+}
+.div2 img{
+    position: absolute;
+}
+.myimg41{
+    top:10%;
+    left: 33%;
+}
+.myimg222{
+    top:10%;
+    left: 40%;
+}
+.myimg11{
+    top: 40%;
+    left: 20%;
+}
+.myimg21{
+    top: 50%;
+    left: 35%;
+}
+.myimg31{
+    top: 35%;
+    left: 55%;
+}
+.div3{
+    width: 100%;
+    background-color: #ffd534;
+    position: relative;
+}
+.div3 img{
+    position: absolute;
+}
+.div3 h1{
+    position: absolute;
+    color: red;
+}
+.mydiv1{
+    top: 30%;
+    left: 30%;
+}
+.mydiv4{
+    top: 34%;
+    left: 38%;
+}
+.myh1{
+    top: 33%;
+    left: 25%;
+}
+.mydiv5{
+    top: 40%;
+    left: 56%;
+}
+.myh2{
+    top: 38%;
+    left: 60%;
+}
+.mydiv6{
+    top: 54%;
+    left: 59%;
+}
+.myh3{
+    top: 52%;
+    left: 62%;
+}
+.mydiv7{
+    top: 69%;
+    left: 56%;
+}
+.myh4{
+    top: 69%;
+    left: 60%;
+}
+.mydiv8{
+    top: 75%;
+    left: 38%;
+}
+.myh5{
+    top: 75%;
+    left: 30%;
+}
+.div4{
+    width: 100%;
+    background-color: #a1d86b;
+    position: relative;
+}
+.div4 img{
+    position: absolute;
+}
+.myMimg4{
+    top: 30%;
+    left: 30%;
+}
+.myMimg3{
+    top: 58%;
+    left: 50%;
+    z-index: 3;
+}
+.myMimg1{
+    top: 45%;
+    left: 50%;
+    z-index: 3;
+}
+.myMimg2{
+    top: 40%;
+    left: 51.4%;
+    z-index: 3;
+}
+.myMimg5{
+    top: 30%;
+    -webkit-animation: myhh1 2s linear infinite alternate ;
+}
+.myMimg6{
+    top: 25%;
+    -webkit-animation: myhh2 2s linear infinite alternate ;
+}
+.myMimg7{
+    top: 40%;
+    -webkit-animation: myhh3 2s linear infinite alternate ;
+}
+@-webkit-keyframes myhh1 {
+    from{
+        left: 60%;
+    }
+    to{
+        left: 66%;
+    }
+}
+@-webkit-keyframes myhh2 {
+    from{
+        left: 40%;
+    }
+    to{
+        left: 44%;
+    }
+}
+@-webkit-keyframes myhh3 {
+    from{
+        left: 25%;
+    }
+    to{
+        left: 28%;
+    }
+}
+.div5{
+    width: 100%;
+    background-color: #a4ebe5;
+    position: relative;
+}
+.div5 img{
+    position: absolute;
+}
+.myfoot{
+    top: 22%;
+    left: 36%;
+}
+ul{
+    list-style: none;
+    position: fixed;
+    z-index: 4;
+    left: 1%;
+    top: 500px;
+}
+li>div{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 80%;
+}
+li:nth-of-type(1)>div{
+    background-color: red;
+}
+
+
+
+
+
+#myh333{
+    color: white;
+}
+#exampleInputEmail3{
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    border: none;
+}
+#input1{
+    position: relative;
+}
+#exampleInputEmail300{
+    width: 43%;
+    margin-left: 5%;
+    height: 50px;
+}
+#exampleInputEmail3001{
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    width: 43%;
+    margin-left: 2%;
+    bottom: 0;
+    height: 50px;
+}
+#exampleInputPassword31{
+    width: 90%;
+    height: 50px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 1.2em;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#exampleInputPassword31:hover{
+    background-color: black;
+    color: white;
+}
+.form-group{
+    width: 100%;
+    text-align: center;
+}
+.denglu>a{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+.checkbox{
+    position: absolute;
+    display: inline-block;
+    float: left;
+    left: 5%;
+}
+a{
+    color: white;
+    font-size: 1.1em;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.formDiv{
+    width: 80%;
+    padding: 10px 10px 20px;
+    background: rgba(254, 254, 254, 0.3);
+}
+#sheng{
+    width: 43%;
+    height: 50px;
+    border: none;
+    margin-right: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+#shi{
+    width: 43%;
+    margin-left: 2%;
+    height: 50px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.denglu{
+    margin-left: 27%;
+    margin-top: 40%;
+}

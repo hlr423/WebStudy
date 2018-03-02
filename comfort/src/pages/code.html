@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>会员介绍</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/huiyuan.css">
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+</head>
+<body>
+
+@@include("header.html")
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img class="img-responsive" src="../images/huiyuan/1.png" alt="">
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img class="img-responsive" src="../images/huiyuan/2.png" alt="">
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+             <img class="img-responsive" src="../images/huiyuan/3.png" alt="">
+         </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+             <img class="img-responsive" src="../images/huiyuan/4.png" alt="">
+         </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+             <img class="img-responsive" src="../images/huiyuan/5.png" alt="">
+         </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+             <img class="img-responsive" src="../images/huiyuan/6.png" alt="">
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img class="img-responsive" src="../images/huiyuan/7.png" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <a href="#a" id="chenwei" class="tiaozhuan">
+            成为会员享礼赠<span class="caret"></span>
+        </a>
+    </div>
+    <div class="row mar">
+        <div class="huiyuan">
+            <h1 id="a">成为会员，只需2步</h1><br>
+        </div>
+    </div>
+    <div class="row">
+            <br>
+        <!--<div class="left col-lg-3 col-md-3 col-sm-3 col-xs-3">-->
+           <!--</div>-->
+        <div class="left col-md-offset-2 col-md-4 text-center">
+            <span>1</span><br>
+
+            <h4>注册COMFORT账号</h4>
+            <p>推荐使用手机号注册<br>
+            成为会员更便捷</p>
+            <a href="login.html"><button class="zhuc">去注册</button></a>
+
+        </div>
+
+
+        <!--<div class="left col-lg-1 col-md-1 col-sm-1 col-xs-1">-->
+        <!--</div>-->
+        <div class="right col-md-4 text-center">
+            <span>2</span><br>
+            <h4>完善任意2项资料</h4>
+            <p>若未用手机号注册，仅需完善3项资料，<br>
+                也可通过购物、分享等成为会员</p>
+
+        </div>
+        <!--<div class="left col-lg-2 col-md-2 col-sm-2 col-xs-2">-->
+        <!--</div>-->
+
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="huiyuan">
+            <h1>现在加入，有额外礼赠</h1><br>
+                <p>现在成为会员，可获得一次抽奖机会，100%中奖</p>
+
+        </div>
+        <p><strong>你可能获得</strong></p>
+        <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+               <tr>
+                   <td align="center"><img class="img-responsive" src="../images/huiyuan/1.jpg" alt=""></td>
+                   <td align="center"><img class="img-responsive" src="../images/huiyuan/2.jpg" alt=""></td>
+                   <td align="center"><img class="img-responsive" src="../images/huiyuan/3.jpg" alt=""></td>
+               </tr>
+                <tr class="youhui">
+                    <td align="center" >全场通用优惠券
+                        满¥2000可用 <button>立减￥100元</button></td>
+                    <td align="center">法国设计师 Constance Guisset
+                        造作茶花套碗™ <button>1元购</button></td>
+                    <td align="center">德国设计师 Sarah Böttger
+                        闺格 置物架 <button>立减¥30</button></td>
+                </tr>
+
+            </table>
+    </div>
+
+    </div>
+
+    <div class="row">
+        <div class="choujiang">
+            <button style="width: 300px"><a href="#a" class="tiaozhuan2" >成为会员即可抽奖</a></button>
+        </div>
+    </div>
+</div>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script>
+    let wh=$(window).height();
+    $(window).scroll(function(){
+        let s=$(window).scrollTop();
+        if(s>6200){
+            $("#chenwei").css("display","none");
+        }else {
+            $("#chenwei").css("display","block");
+        }
+    });
+</script>
+<script src="../js/nav/nav1.js"></script>
+
+</body>
+</html>

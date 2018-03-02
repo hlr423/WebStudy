@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>活动热点</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/activeCSS/activity.css">
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--加载动画的div-->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+
+<!--导航条-->
+<header class="header">
+    <div class="container-fluid headerTop">
+        <div class="row toprow">
+            <ul class="TopUl">
+                <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店</a></li>
+                <li><a href="">了解Comfort</a></li>
+                <li><a href="">商业合作</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid headerNav">
+        <div class="row">
+            <ul class="leftNav">
+                <li><img class="leftNavlogo" src="../images/nav/logoW.png" alt=""></li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="">一键装家</a></li>
+                <li>
+                    <a href="">沙发</a>
+                    <ul class="submenu sofa">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/u2.jpg" alt="">
+                                <p>四人沙发</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/z2.jpg" alt="">
+                                <p>三人沙发</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/t2.jpg" alt="">
+                                <p>双人沙发</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/x2.jpg" alt="">
+                                <p>单人沙发</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/e2.jpg" alt="">
+                                <p>沙发墩</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">桌几</a>
+                    <ul class="submenu Stool">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/v2.jpg" alt="">
+                                <p>书桌·餐桌</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/aa2.jpg" alt="">
+                                <p>茶几</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/n2.jpg" alt="">
+                                <p>边几</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">板凳</a>
+                    <ul class="submenu wooden">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/ww2.jpg" alt="">
+                                <p>座椅</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/d2.jpg" alt="">
+                                <p>坐墩</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/f2.jpg" alt="">
+                                <p>凳子</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">柜架</a>
+                    <ul class="submenu tankBracket">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/hh2.jpg" alt="">
+                                <p>置物架</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/g2.jpg" alt="">
+                                <p>书柜·书架</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/oo2.jpg" alt="">
+                                <p>电视柜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/h2.jpg" alt="">
+                                <p>置物架</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/ff2.jpg" alt="">
+                                <p>衣柜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/oo2.jpg" alt="">
+                                <p>电视柜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/o2.jpg" alt="">
+                                <p>单元格</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/tt2.jpg" alt="">
+                                <p>床头柜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/dd2.jpg" alt="">
+                                <p>衣帽架</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/i2.jpg" alt="">
+                                <p>鞋柜·玄关</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">灯具</a>
+                    <ul class="submenu light">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/zz2.jpg" alt="">
+                                <p>台灯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/uu2.jpg" alt="">
+                                <p>地灯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/r2.jpg" alt="">
+                                <p>吊灯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/w2.jpg" alt="">
+                                <p>夜灯</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">床·床品</a>
+                    <ul class="submenu bed">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/jj2.jpg" alt="">
+                                <p>床</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/gg2.jpg" alt="">
+                                <p>床垫</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/tt2.jpg" alt="">
+                                <p>床头柜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/rr2.jpg" alt="">
+                                <p>床品四件套</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/b2.jpg" alt="">
+                                <p>被芯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/ee2.jpg" alt="">
+                                <p>枕芯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/pp2.jpg" alt="">
+                                <p>床褥</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/p2.jpg" alt="">
+                                <p>床下储蓄盒</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/k2.jpg" alt="">
+                                <p>床尾凳</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">家纺</a>
+                    <ul class="submenu homeTextiles">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/c2.jpg" alt="">
+                                <p>地毯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/y2.jpg" alt="">
+                                <p>盖毯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/rr2.jpg" alt="">
+                                <p>床品四件套</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/j2.jpg" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/m2.jpg" alt="">
+                                <p>毛巾</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">装饰</a>
+                    <ul class="submenu decorate">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/xx2.jpg" alt="">
+                                <p>摆件·花瓶</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/yy2.jpg" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/qq2.jpg" alt="">
+                                <p>装饰画</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">餐具</a>
+                    <ul class="submenu tableware">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/s2.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/a2.jpg" alt="">
+                                <p>碗盘</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/ii2.jpg" alt="">
+                                <p>杯子</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/q2.jpg" alt="">
+                                <p>储物</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/l2.jpg" alt="">
+                                <p>托盘</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="rightNav">
+                <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店</a></li>
+                <li><a href="">了解Comfort</a></li>
+                <li><a href="">商业合作</a></li>
+                <li><a href=""><i class=""></i></a></li>
+                <li><a href=""><i class=""></i></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="container mainContainer">
+    <div class="row text-center margin-top-30">
+        <div class="col-md-12">
+            <!--<h1>COMFORT</h1>-->
+            <div class="row">
+                <img class="activityLogo" src="../images/nav/logoB.png" alt="">
+                <img class="activityLogo" src=".././public/images/nav/logoB.png" alt="">
+                <img class="activityLogo" src="../src/images/nav/logoB.png" alt="">
+            </div>
+            <div class="row margin-top-30">
+                <h2>与Comfort热点同步 理想生活，灵感一触即发</h2>
+            </div>
+        </div>
+    </div>
+    <!--nav-->
+    <div class="row text-center">
+        <div class="col-md-offset-2 col-md-8 ">
+            <div class="navbar-header" id="nav">
+                <a class="navbar-brand" href="/activity.do">空间灵感</a>
+                <a class="navbar-brand" href="/activePing.do">精选晒单</a>
+                <a class="navbar-brand" href="/activityphps.do">实体店</a>
+                <a class="navbar-brand" href="/activityspecial.do">专辑</a>
+                <a class="navbar-brand" href="/activitytrademark.do">品牌</a>
+            </div>
+        </div>
+    </div>
+
+    <!--content1-->
+
+
+        <% var num=0 %>   <!--用于循环单数执行还是双数执行-->
+            <%for(var i=0;i<mydata.length;i++){
+                num++;%>
+
+                    <%if((num%2)==1){%>
+                    <div class="row text-center content1">
+                         <a href="<%=mydata[i].ac_morelink%>">
+                    <div class="col-md-6 col-sm-6 col-xs-12 img-left text-left content3-left">
+                        <img src="<%=mydata[i].ac_img%>" class="img-responsive" alt="">
+                        <div class="zhe"></div>
+                        <div class=" col-lg-12">
+                            <h4><%=mydata[i].ac_zt%></h4>
+                            <p><%=mydata[i].ac_ft%></p>
+                            <div class="col-md-3 text-type"><p class="btn-info text-center"><%=mydata[i].ac_type%></p></div>
+                        </div>
+                    </div>
+                </a>
+                     <%} else if((num%2)==0){%>
+
+                        <a href="<%=mydata[i].ac_morelink%>">
+                    <div class="col-md-6 col-sm-6 col-xs-12 img-left text-left content3-left">
+                        <img src="<%=mydata[i].ac_img%>" class="img-responsive" alt="">
+                        <div class="zhe"></div>
+                        <div class=" col-lg-12">
+                            <h4><%=mydata[i].ac_zt%></h4>
+                            <p><%=mydata[i].ac_ft%></p>
+                            <div class="col-md-3 text-type"><p class="btn-info text-center"><%=mydata[i].ac_type%></p></div>
+                        </div>
+                    </div>
+                </a>
+                    </div>
+                    <%}else if(num==mydata.length&&num%2!=0){%>
+                    </div>
+                    <%}}%>
+
+</div>
+
+<!--页尾-->
+<footer class="footer" style="margin-top: 60px">
+    <div class="container-fluid main-footer">
+        <div class="footerTop">
+            <ul>
+                <li>
+                    <div class="liDiv1">
+                        <img class="footerLogo" src="../images/nav/logoW.png" alt="">
+                        <p>comfort.com</p>
+                        <a href=""><i class="iconfont">&#xe66a;</i></a>
+                        <a href=""><i class="iconfont">&#xe699;</i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="liDiv2">
+                        <ul>
+                            <li><a href="">关于comfort</a></li>
+                            <li><a href="">团队介绍</a></li>
+                            <li><a href="">设计师团</a></li>
+                            <li><a href="">媒体报道</a></li>
+                            <li><a href="">知识产权</a></li>
+                            <li><a href="">加入我们</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">帮助中心</a></li>
+                            <li><a href="">购物指南</a></li>
+                            <li><a href="">订单管理</a></li>
+                            <li><a href="">常见问题</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">服务支持</a></li>
+                            <li><a href="">服务保障</a></li>
+                            <li><a href="">用户协议</a></li>
+                            <li><a href="">物流售后服务</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">商业合作</a></li>
+                            <li><a href="">集体采购</a></li>
+                            <li><a href="">渠道合作</a></li>
+                            <li><a href="">品牌合作</a></li>
+                            <li><a href="">媒体合作</a></li>
+                            <li><a href="">设计师入驻</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="liDiv3">
+                        <p>联系我们</p>
+                        <p>4000-8888-8888 <span> (9:00~21:00)</span></p>
+                        <a id="footerkefu" href=""><p>在线客服</p></a>
+                        <span class="xian"></span>
+                        <ul>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店1</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店2</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店3</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店4</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店5</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="clear"></li>
+            </ul>
+        </div>
+        <div class="footerBottom">
+            <div class="xian"></div>
+            <div class="text-center">
+                <p>Copyright © 2015 zaozuo.com Inc.All Rights Reserved. 滑稽科技有限责任公司</p>
+                <p>版权所有 滑稽一号 四川成都</p>
+                <p>comfort官网-全品类设计家居品牌</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js/nav/nav1.js"></script>
+<script>
+    $(".content3-left").addClass("animated fadeInLeft");
+    $(".content3-right").addClass("animated fadeInRight");
+    $(window).scroll(function () {
+        console.log($(window).scrollTop());
+        if($(window).scrollTop()>=50){
+            $(".content3-11").addClass("animated fadeInLeft");
+            $(".content3-12").addClass("animated fadeInRight");
+        }
+        if($(window).scrollTop()>=400){
+            $(".content3-21").addClass("animated fadeInLeft");
+            $(".content3-22").addClass("animated fadeInRight");
+        }
+        if($(window).scrollTop()>=1000){
+            $(".content3-31").addClass("animated fadeInLeft");
+            $(".content3-32").addClass("animated fadeInRight");
+        }
+    });
+</script>
+</body>
+</html>

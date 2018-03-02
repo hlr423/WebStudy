@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/person/Person-Member1.css"/>
+    <link rel="stylesheet" href="../css/person/CommonList.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css"/>
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <title>会员中心</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+@@include("header.html")
+
+<section class="mainBody">
+    <div class="container-fluid">
+        <div class="row" style="padding:0">
+            <div class="col-md-2 col-xs-2">
+                <div class="navBox text-center">
+                    <ul>
+                        <!--<li style="height: 60px;line-height: 60px">当前位置 | 会员中心</li>-->
+                        <li><a class="liAcvite" href="Person-Member1.html">会员中心 <span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Myorder1.html">我的订单<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Invite-award.html">邀请奖励<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mydiscount.html">我的优惠券<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Myinformation.html">我的消息<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mypic.html">我的晒单<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mydata.html">我的资料<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mycollect1.html">我的收藏<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-xs-10">
+                <div class="row box1 box2">
+                    <div class="col-xs-2 text-center">
+                        <br>
+                        <br>
+                        <div class="P-img">
+                            <img src="../images/person-member/Person-Member1.jpg" class="img-responsive" alt="">
+                        </div>
+                        <p class="username">用户名</p>
+                    </div>
+                    <div class="col-xs-10 head">
+                        <a href="code.html" class="text-center">了解会员体系</a>
+                        <img src="../images/person-member/Logo-text.png" class="img-responsive logoText" alt="">
+                        <span><strong class="grade">一级</strong>Confort生活家</span>
+                        <div class="RankList">
+                            <span></span>
+                        </div>
+                        <div class="gradeText">
+                            当前成长值 
+                            <span class="text-red">200</span>
+                             <span>距离升级还需成长值799</span>
+                            <a href="#">查看成长明细 <span class="glyphicon glyphicon-menu-right text-red"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!--<div class="linear1"></div>-->
+                <br>
+                <div class="row box2">
+                    <div class="mid-1">
+                        <img src="../images/person-member/Person-Member1-1.png" alt="">
+                        <span>我的会员特权</span>
+                    </div>
+                    <br>
+                    <div class="hoverBox">
+                        <div class="row text-center">
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypanel" aria-expanded="true" aria-controls="mypanel">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe662;</span>
+                                <p><strong>邀请奖励</strong></p>
+                                <p class="text-gray">邀请好友，奖励9.3折全场优惠</p>
+                                <p class="text-gray">100成长值</p>
+                                <div class="member-box">&nbsp;9.3折&nbsp;</div>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane2" aria-expanded="false" aria-controls="mypane2">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe67f;</span>
+                                <p><strong>升级礼</strong></p>
+                                <p class="text-gray">¥935全场券，低至9.5折</p>
+                                <div class="member-box">&nbsp;¥900&nbsp;</div>
+                                <br>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane3" aria-expanded="false" aria-controls="mypane3">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe64c;</span>
+                                <p><strong>生日礼</strong></p>
+                                <p class="text-gray">¥1025全场券，低至9.5折</p>
+                                <div class="member-box">&nbsp;¥1000&nbsp;</div>
+                                <br>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane4" aria-expanded="false" aria-controls="mypane4">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe605;</span>
+                                <p><strong>专属会员价</strong></p>
+                                <p class="text-gray">精选商品会员专属优惠</p>
+                                <div class="member-box">&nbsp;专享折扣&nbsp;</div>
+                                <br>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="collapse" id="mypanel">
+                            <div class="well downText1">
+                                <h4 class="text-red" style="margin-left: 5%">邀请好友得折扣券和成长值奖励</h4>
+                                <p style="margin-left: 5%">•  邀请人数达标，最高可得<span class="text-red">9.3</span>折全场券</p>
+                                <p style="margin-left: 5%">•  每邀请一位好友注册，奖励<span class="text-red">100</span>成长值</p>
+                                <p class="text-gray" style="margin-left: 5%">可至“我的-邀请奖励”查看详情</p>
+                                <!--<span class="close" data-dismiss="collapse">&times;</span>-->
+                                <a href="Invite-award.html">去邀请</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="mypane2">
+                            <div class="well downText2">
+                                <h4 style="margin-left: 2%">已经领取Z<i>1</i>升级礼包</h4>
+                                <p style="margin-left: 2%"><span class="rightPic">√</span>全场通用优惠券礼包：</p>
+                                <p class="text-gray" style="margin-left: 2%">请注意优惠券有效期，及时使用哦</p>
+                                <div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥10</p>
+                                        <p class="text-gray">满200可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥25</p>
+                                        <p class="text-gray">满500可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥50</p>
+                                        <p class="text-gray">满1000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥100</p>
+                                        <p class="text-gray">满2000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥250</p>
+                                        <p class="text-gray">满5000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥500</p>
+                                        <p class="text-gray">满10000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                                <a href="#">查看优惠券</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="mypane3">
+                            <div class="well">
+                                <h4 class="text-red" style="margin-left: 2%">Confort为你准备的生日礼包</h4>
+                                <p style="margin-left: 2%">•  全场通用优惠券 <span class="text-red">¥1025</span></p>
+                                <p class="text-gray" style="margin-left: 2%">请注意优惠券有效期，及时使用哦</p>
+                                <div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥75</p>
+                                        <p class="text-gray">满1500可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥150</p>
+                                        <p class="text-gray">满3000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥300</p>
+                                        <p class="text-gray">满6000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥500</p>
+                                        <p class="text-gray">满10000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="mypane4">
+                            <div class="well text-center">
+                                <p class="text-gray">精选商品，会员可享受专属折扣价，会员等级越高，折扣力度越大。不定期开启，参与商品以届时发布为准</p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane5">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe6ac;</span>
+                                <p><strong>晒单返券</strong></p>
+                                <p class="text-gray">成交价10%全场券奖励</p>
+                                <p class="text-gray">10%成长值</p>
+                                <div class="member-box">&nbsp;10%&nbsp;</div>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane6">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe8c0;</span>
+                                <p><strong>会员惊喜</strong></p>
+                                <p class="text-gray">不定期会员专属活动，给你惊喜</p>
+                                <br>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-3 col-xs-12"></div>
+                            <div class="col-md-3 col-xs-12"></div>
+                        </div>
+                        <div class="collapse" id="mypane5">
+                            <div class="well">
+                                <h4 class="text-red"  style="margin-left: 5%">晒单奖励</h4>
+                                <p class="text-gray" style="margin-left: 5%">发布不少于30个字和2张美图的晒单，即可获得对应晒单商品
+                                    成交价3%的全场通用优惠券，同时获得成交价10%的成长值奖励</p>
+                                <p class="text-gray" style="margin-left: 5%">晒单入选造作生活家精选，将再多得对应晒单商品成交价5%的全场通用优惠券</p>
+                                <p class="text-gray" style="margin-left: 5%">分享精选晒单，可再额外多得对应晒单商品成交价2%的全场通用优惠券</p>
+                            </div>
+                        </div>
+                        <div class="collapse" id="mypane6">
+                            <div class="well text-center">
+                                <p class="text-gray">造作会不定期推出会员专享惊喜活动，具体内容以届时发布为准</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row box2">
+                    <div class="mid-1">
+                        <img src="../images/person-member/Person-Member1-2.png" alt="">
+                        <span>升级后可享受Z2权益</span>
+                        <a href="#">查看如何升级<span class="glyphicon glyphicon-menu-right text-red" aria-hidden="true"></span></a>
+                    </div>
+                    <br>
+                    <div class="hoverBox">
+                        <div class="row text-center">
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane7">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe662;</span>
+                                <p><strong>邀请奖励</strong></p>
+                                <p class="text-gray">邀请好友，奖励9.1折全场优惠</p>
+                                <p class="text-gray">150成长值</p>
+                                <div class="member-box">&nbsp;9.1折&nbsp;</div>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane8">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe67f;</span>
+                                <p><strong>升级礼</strong></p>
+                                <p class="text-gray">¥2310全场券，低至9.4折</p>
+                                <div class="member-box">&nbsp;¥2300&nbsp;</div>
+                                <br>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane9">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe64c;</span>
+                                <p><strong>生日礼</strong></p>
+                                <p class="text-gray">¥100档位精选实物礼</p>
+                                <p class="text-gray">¥1230全场券，低至9.4折</p>
+                                <div class="member-box">&nbsp;¥1300&nbsp;</div>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane10">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe605;</span>
+                                <p><strong>专属会员价</strong></p>
+                                <p class="text-gray">精选商品会员专属优惠</p>
+                                <div class="member-box">&nbsp;专享折扣&nbsp;</div>
+                                <br>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="collapse" id="mypane7">
+                            <div class="well downText1">
+                                <h4 class="text-red" style="margin-left: 5%">邀请好友得折扣券和成长值奖励</h4>
+                                <p style="margin-left: 5%">•  邀请人数达标，最高可得<span class="text-red">9.1</span>折全场券</p>
+                                <p style="margin-left: 5%">•  每邀请一位好友注册，奖励<span class="text-red">150</span>成长值</p>
+                                <p class="text-gray" style="margin-left: 5%">可至“我的-邀请奖励”查看详情</p>
+                                <!--<span class="close" data-dismiss="collapse">&times;</span>-->
+                            </div>
+                        </div>
+                        <div class="collapse" id="mypane8">
+                            <div class="well downText2">
+                                <h4 class="text-red" style="margin-left: 2%">升级到Z2可领取升级礼包</h4>
+                                <p style="margin-left: 2%">•  全场通用优惠券礼包：</p>
+                                <p class="text-gray" style="margin-left: 2%">请注意优惠券有效期，及时使用哦</p>
+                                <div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥30</p>
+                                        <p class="text-gray">满500可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥60</p>
+                                        <p class="text-gray">满1000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥120</p>
+                                        <p class="text-gray">满2000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥300</p>
+                                        <p class="text-gray">满5000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥690</p>
+                                        <p class="text-gray">满10000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥1200</p>
+                                        <p class="text-gray">满20000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="mypane9">
+                            <div class="well">
+                                <h4 class="text-red" style="margin-left: 2%">生日时可领取</h4>
+                                <p style="margin-left: 2%">•  精选实物生日礼<span class="text-red">¥100</span></p>
+                                <p style="margin-left: 2%">•  全场通用优惠券 <span class="text-red">¥1230</span></p>
+                                <p class="text-gray" style="margin-left: 2%">请注意优惠券有效期，及时使用哦</p>
+                                <div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥90</p>
+                                        <p class="text-gray">满1500可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥180</p>
+                                        <p class="text-gray">满3000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥360</p>
+                                        <p class="text-gray">满6000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="wave1">
+                                        <p class="text-red">¥600</p>
+                                        <p class="text-gray">满10000可用</p>
+                                        <img src="../images/person-member/wave.png" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="mypane10">
+                            <div class="well text-center">
+                                <p class="text-gray">精选商品，会员可享受专属折扣价，会员等级越高，折扣力度越大。不定期开启，参与商品以届时发布为准</p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane11">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe6ac;</span>
+                                <p><strong>晒单返券</strong></p>
+                                <p class="text-gray">成交价10%全场券奖励</p>
+                                <p class="text-gray">10%成长值</p>
+                                <div class="member-box">&nbsp;10%&nbsp;</div>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hoverSB" data-toggle="collapse" data-target="#mypane12">
+                                <br>
+                                <br>
+                                <span class="iconfont">&#xe8c0;</span>
+                                <p><strong>会员惊喜</strong></p>
+                                <p class="text-gray">不定期会员专属活动，给你惊喜</p>
+                                <br>
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-menu-up downJ" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-3 col-xs-12"></div>
+                            <div class="col-md-3 col-xs-12"></div>
+                        </div>
+                        <div class="collapse" id="mypane11">
+                            <div class="well">
+                                <h4 class="text-red"  style="margin-left: 5%">晒单奖励</h4>
+                                <p class="text-gray" style="margin-left: 5%">发布不少于30个字和2张美图的晒单，即可获得对应晒单商品
+                                    成交价3%的全场通用优惠券，同时获得成交价10%的成长值奖励</p>
+                                <p class="text-gray" style="margin-left: 5%">晒单入选造作生活家精选，将再多得对应晒单商品成交价5%的全场通用优惠券</p>
+                                <p class="text-gray" style="margin-left: 5%">分享精选晒单，可再额外多得对应晒单商品成交价2%的全场通用优惠券</p>
+                            </div>
+                        </div>
+                        <div class="collapse" id="mypane12">
+                            <div class="well text-center">
+                                <p class="text-gray">造作会不定期推出会员专享惊喜活动，具体内容以届时发布为准</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row text-center box2">
+                    <div class="col-md-12 col-xs-12 jumpA">
+                        <a href="">查看全部会员权益</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+.footer{
+    position: relative;
+    margin-top: 20px;
+    padding: 60px 50px 30px;
+    background: #1b1b1b;
+}
+.footerTop{
+    height: 250px;
+}
+.footerTop>ul>li:nth-of-type(1){
+    width: 25%;
+    float: left;
+}
+.footerTop>ul>li:nth-of-type(2){
+    width: 50%;
+    float: left;
+}
+.footerTop>ul>li:nth-of-type(3){
+    width: 25%;
+    float: left;
+}
+.footerTop a{
+    color: white;
+}
+.liDiv1 p{
+    padding: 20px 0 10px;
+    color: white;
+}
+.liDiv1 a{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px white solid;
+    background: #1b1b1b;
+    margin: 0 10px;
+}
+.liDiv1 a i{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+}
+.liDiv1 a:hover{
+    color: black;
+    border: 2px black solid;
+    background: white;
+}
+.liDiv1 a:hover i{
+    color: black;
+}
+.footerLogo{
+    max-width: 140px;
+}
+
+
+.liDiv2 ul{
+    float: left;
+    margin: 0 35px;
+}
+.liDiv2 ul li:nth-of-type(1) a{
+    color: #a0a0a0;
+    padding-bottom: 5px;
+    border-bottom: 1px silver solid;
+    margin-bottom: 15px;
+}
+.liDiv2 ul li{
+    margin: 10px 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.liDiv3 p{
+    color: white;
+    margin: 10px 10px;
+}
+.liDiv3 p:nth-of-type(2){
+    font-size: 22px;
+}
+.liDiv3 p span{
+    font-size: 16px;
+    color: #d7d7d7;
+}
+#footerkefu{
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 0 30px;
+    border-radius: 15px;
+}
+#footerkefu p{
+    color: black;
+    margin: 4px 6px;
+}
+.liDiv3 ul{
+    margin: 20px 0;
+}
+.liDiv3 ul li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin: 6px 0;
+}
+.liDiv3 ul li:nth-of-type(1){
+    border-right: 1px white solid;
+}
+.liDiv3 ul li:nth-of-type(3){
+    border-right: 1px white solid;
+}
+.liDiv3 ul li a{
+    display: inline-block;
+}
+.liDiv3 ul li a i{
+    color: white;
+}
+
+/*页尾下面那一块*/
+.xian{
+    height: 1px;
+    width: 100%;
+    background: white;
+    margin-bottom: 30px;
+}
+.footerBottom p{
+    color: white;
+    line-height: 20px;
+}
+
+.main-footer{
+    /*width: 1400px;*/
+}

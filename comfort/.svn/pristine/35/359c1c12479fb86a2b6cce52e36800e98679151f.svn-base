@@ -1,0 +1,9 @@
+const baibianDao=require("../dao/baibianDao");
+const baibianss= {
+    baibianyemian(request,response){
+        baibianDao.getactivity().then(function (data) {
+            response.render("baibian",{baibian:data})
+        })
+    }
+};
+module.exports=baibianss;

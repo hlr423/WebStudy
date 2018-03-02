@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实体店</title>
+
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="../bootstrap-3.3.7-dist/js/bootstrap.min.js">-->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!--<link rel="stylesheet" href="../css/activeCSS/activeZ.css">-->
+    <link rel="stylesheet" href="../css/activeCSS/activeS.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+@@include("header.html")
+
+<!--banner-->
+<div class="container-fluid">
+
+    <!--收藏成功的模态框-->
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="m-height">
+                  <span class="glyphicon glyphicon-ok-sign mBnt-color"></span>
+                  <span class="m-text">收藏成功！</span>
+
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--banner-->
+    <div class="row">
+       <div class="sbgc">
+           <div class="collect">
+               <span class="iconActiveS clt" data-toggle="modal" data-target=".bs-example-modal-sm" id="collect">&#xe605;</span>
+           </div>
+       </div>
+        <div class="row blackLR">
+            <div class="row whiteLR1">
+                <h4 class="addressBt">北京快闪概念店 | 王府井apm商场L103</h4>
+                <div class="col-lg-4 col-md-6 col-sm-6 address">
+                    <p><b>◆</b>COMFORT首家快闪店开幕，上千个气球温暖冬日王府井</p>
+                    <p><b>◆</b>北京apm快闪概念店-COMFORT设计全时区</p>
+                </div>
+                <div class="col-md-4 col-lg-4 address addressLeft">
+                    <p><b>◆</b>北京市东城区王府井大街138号L103</p>
+                    <p><b>◆</b>电话：010-65251451
+                        <span>营业时间：10:00-22:00</span>
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-3col-sm-2">
+                    <div class="row">
+                        <div class="share">
+                            <div class="s">
+                                <span class="iconActiveS S">&#xe613;</span>
+                            </div>
+                            <div class="ww">
+                                <span class="iconActiveS">&#xe653;</span>
+                                <span class="iconActiveS">&#xe65b;</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+<!--content1-->
+<div class="container-fluid">
+    <div class=" row blackLR">
+        <div class="row whiteLR">
+            <div class="row text-center">
+            <div class="contentBt">
+                <div class="col-md-4 col-lg-4 content1Hr">
+                    <hr>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <h3>
+                        2017COMFORT大事件年终盘点
+                    </h3>
+                </div>
+                <div class="col-md-4 col-lg-4 content1Hr">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <img src="../images/az1/as1-3.jpg" class="img-responsive" alt="">
+            </div>
+            <div class="row text-left content1-text">
+                <div class="col-md-12 col-lg-12 bt">
+                    <h4>
+                        COMFORT首个快闪概念店
+                    </h4>
+                    <p class="FONT">
+                        这个冬天，我们在人来人往的北京王府井，
+                        开设了有史以来第一次的期间限定快闪店 ，
+                        希望透过这个全国乃至全世界访客来到北京都不会错过之地，
+                        把COMFORT来自全世界的好设计带给更多的好朋友。
+                    </p>
+                </div>
+            </div>
+        </div>
+            <!--content2-->
+            <div class="row topbottonH">
+                <div class="col-lg-3 col-md-3">
+                    <div class="contnet2-left">
+                        <div class="row">
+                            <img src="../images/az1/as1-4.jpg"  class="img-responsive" alt="">
+                        </div>
+                        <div class="row text-left content1-text">
+                            <div class="col-md-12 col-lg-12 bt">
+                                <h4>
+                                    ★走入店里
+                                </h4>
+                                <p class="FONT">
+                                    映入眼帘的是一幅宽阔的世界地图，标明了从东一区的巴黎、斯德哥尔摩、威尼斯一直到东九区的北京与东京
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contnet2-left">
+                        <div class="row">
+                            <img src="../images/az1/as1-5.jpg"  class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="contnet2-right"></div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <div class="contnet2-right">
+                        <div class="row">
+                            <img src="../images/az1/as1-7.jpg"  class="img-responsive" alt="">
+                        </div>
+                        <div class="row text-left content1-text">
+                            <div class="col-md-12 col-lg-12 bt">
+                                <h4>
+                                    从am到pm-COMFORT设计全时区
+                                </h4>
+                                <p class="FONT">
+                                    走入店里，映入眼帘的是一幅宽阔的世界地图，
+                                    标明了从东一区的巴黎、斯德哥尔摩、威尼斯一直到
+                                    东九区的北京与东京。你的日落是我的白天，
+                                    一棒接着一棒，无论何时，都有COMFORT来自全世界
+                                    的设计师，为了你的理想生活而奋力设计。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--content3-->
+            <div class="row text-center">
+                <div class="contentBt">
+                    <div class="col-md-4 col-lg-4 content1Hr">
+                        <hr>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <h3>
+                            台上的设计大秀
+                        </h3>
+                    </div>
+                    <div class="col-md-4 col-lg-4 content1Hr">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="../images/az1/as1-8.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="row text-left content1-text">
+                    <div class="col-md-12 col-lg-12 bt">
+                        <h4>
+                            月2日 COMFORT与满是开放包容的王府井
+                        </h4>
+                        <p class="FONT">
+                            时区地图墙之外，眼尖的朋友也一定不
+                            会错过正对店铺中间的白色T台，
+                            这一次我们将原本的椅子墙给换到
+                            了地上，让同一型态不同颜色的丝绸椅
+                            与豌豆椅一字排开，展現COMFORT的强壮与美丽。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--content4-->
+            <div class="row topbottonH">
+                <div class="col-lg-3 col-md-3">
+                    <div class="contnet2-left">
+                        <div class="row">
+                            <img src="../images/az1/as1-11(1).jpg"  class="img-responsive" alt="">
+                        </div>
+                        <div class="row text-left content1-text">
+                            <div class="col-md-12 col-lg-12 bt">
+                                <h4>
+                                    ★ 自全国，还是全世界各地的游客们
+                                </h4>
+                                <p class="FONT">
+                                    到北京都不会忘了来王府井转转，
+                                    这里之于北京，是开放、多元、自
+                                    由的标志之一，正如拥抱世界设计的
+                                    COMFORT一样，在传统里新生，葆有一颗年轻的心
+                                    ，倡导自信、平等和多元，打破地域偏见，
+                                    撕掉标签，我们就是未来！                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contnet2-left">
+                        <div class="row">
+                            <img src="../images/az1/as1-13.jpg"  class="img-responsive" alt="">
+                        </div>
+                        <div class="row text-left content1-text">
+                            <div class="col-md-12 col-lg-12 bt">
+                                <h4>
+                                    ★ 邀请建筑师史洋先生
+                                </h4>
+                                <p class="FONT">
+                                    12月2日的开幕派对上，
+                                    我们邀请到了建筑师史洋先生来到现场 。
+                                    他在“梦想改造家”第四季里改造了哈尔滨60年
+                                    老房，并在软装上用到了COMFORT的很多产品。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contnet2-right"></div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <div class="contnet2-right">
+                        <div class="row">
+                            <img src="../images/az1/as1-12.jpg"  class="img-responsive" alt="">
+                        </div>
+                        <div class="row text-left content1-text">
+                            <div class="col-md-12 col-lg-12 bt">
+                                <h4>
+                                    瓣音乐总经理许波先生也出席
+                                </h4>
+                                <p class="FONT">
+                                    瓣音乐总经理许波先生也出席了当天的开幕派对，
+                                    在此前举办的豆瓣潮潮音乐周上，我们在音乐节现
+                                    场搭建了一个黄色区域，以COMFORT最具代表性的产品，
+                                    将豆瓣的“我们的精神角落”化为实实在在的空间。
+                                    回顾当时的这场合作，许波很期待下次与COMFORT的合作 。
+                                    是呢，我们也很期待 ❤️
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--content5-->
+            <div class="row text-center">
+                <div class="contentBt">
+                    <div class="col-md-4 col-lg-4 content1Hr">
+                        <hr>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <h3>
+                            世界可以为中国设计
+                        </h3>
+                    </div>
+                    <div class="col-md-4 col-lg-4 content1Hr">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="../images/az1/as1-1.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="row text-left content1-text">
+                    <div class="col-md-12 col-lg-12 bt">
+                        <h4>
+                            3月2日 COMFORT与满是开放包容的王府井
+                        </h4>
+                        <p class="FONT">
+                            为了呼应店里的世界地图和
+                            设计全时区的快闪店理念，
+                            在开幕活动当天，我们邀请每
+                            个来到派对的朋友，签上了属于他们
+                            的标语气球，“我是哈尔滨人，我在北
+                            京遇见斯德哥尔摩””、“我是浙江
+                            人，我在北京遇见巴黎”、“我是新
+                            加坡人，我在北京遇见威尼斯”......
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--content6-->
+            <div class="row topbottonH">
+                <div class="col-lg-3 col-md-3">
+                    <div class="contnet2-left">
+                        <div class="row">
+                            <img src="../images/az1/as1-15.jpg"  class="img-responsive" alt="">
+                        </div>
+                        <div class="row text-left content1-text">
+                            <div class="col-md-12 col-lg-12 bt">
+                                <h4>
+                                    ★ 自全国，还是全世界各地的游客们
+                                </h4>
+                                <p class="FONT">
+                                    到北京都不会忘了来王府井转转，
+                                    这里之于北京，是开放、多元、自
+                                    由的标志之一，正如拥抱世界设计的
+                                    COMFORT一样，在传统里新生，葆有一颗年轻的心
+                                    ，倡导自信、平等和多元，打破地域偏见，
+                                    撕掉标签，我们就是未来！                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contnet2-left">
+                        <div class="row">
+                            <img src="../images/az1/as1-16.jpg"  class="img-responsive" alt="">
+                        </div>
+                        <div class="row text-left content1-text">
+                            <div class="col-md-12 col-lg-12 bt">
+                                <h4>
+                                    ★ 邀请建筑师史洋先生
+                                </h4>
+                                <p class="FONT">
+                                    12月2日的开幕派对上，
+                                    我们邀请到了建筑师史洋先生来到现场 。
+                                    他在“梦想改造家”第四季里改造了哈尔滨60年
+                                    老房，并在软装上用到了COMFORT的很多产品。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contnet2-right"></div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <div class="contnet2-right">
+                        <div class="row">
+                            <img src="../images/az1/as1-18.jpg"  class="img-responsive" alt="">
+                        </div>
+                        <div class="row text-left content1-text">
+                            <div class="col-md-12 col-lg-12 bt">
+                                <h4>
+                                    瓣音乐总经理许波先生也出席
+                                </h4>
+                                <p class="FONT">
+                                    瓣音乐总经理许波先生也出席了当天的开幕派对，
+                                    在此前举办的豆瓣潮潮音乐周上，我们在音乐节现
+                                    场搭建了一个黄色区域，以COMFORT最具代表性的产品，
+                                    将豆瓣的“我们的精神角落”化为实实在在的空间。
+                                    回顾当时的这场合作，许波很期待下次与COMFORT的合作 。
+                                    是呢，我们也很期待 ❤️
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--content7-->
+        </div>
+    </div>
+</div>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js/activeJS/activeS.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

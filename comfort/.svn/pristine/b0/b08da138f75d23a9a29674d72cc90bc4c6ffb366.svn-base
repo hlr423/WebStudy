@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    /*padding: 0;*/
+}
+.tiaozhuan{
+    position: fixed;
+    bottom: 10%;
+    left: 43%;
+    font-size: 1.2em;
+    background-color:rgba(0,0,0,1);
+    border: none;
+    width: 240px;
+    height:50px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+.tiaozhuan:hover{
+    background-color:rgba(0,0,0,0.8) ;
+    color: white;
+    text-decoration: none;
+}
+
+.huiyuan{
+
+    padding-top: 4rem;
+    padding-bottom: .4rem;
+    font-size: 2.4rem;
+    line-height: 1.4;
+    color: #000;
+    text-align: center;
+    /*padding: 0 ;*/
+}
+.huiyuan{
+    height: auto;
+    margin-top: 1.5rem;
+    background: #fff;
+    text-align: center;
+    top:0;
+}
+.zhuc{
+    background-color: rgba(0,0,0,1);
+    color: white;
+    font-size: 1.3em;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    border: none;
+}
+.zhuc:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.left>span{
+    display: block;
+    background-color: #838383;
+    font-size: 3em;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    /*border-radius: 40px;*/
+    margin: 0 auto;
+}
+.right>span{
+    display: block;
+    background-color: #838383;
+    font-size: 3em;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    /*border-radius: 40px;*/
+    margin: 0 auto;
+
+}
+hr{
+    background-color: gray;
+}
+.huiyuan{
+    background-color: #ffffff;
+}
+tr>td>img{
+    width:400px;
+}
+.row>p{
+    font-size: 20px;
+    margin-left: 5%;
+}
+td{
+    height: 80px;
+    padding-top: 10px;
+}
+body{
+    background-color: #ffffff;
+}
+.youhui>td>button{
+    background-color: black;
+    padding: 6px 20px;
+    display: block;
+    border: none;
+    margin-top: 15px;
+    /*width: 90px;*/
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+}
+.choujiang{
+    position: relative;
+    margin: 30px auto;
+    text-align: center;
+}
+.choujiang>button{
+    background-color: black;
+    color: white;
+    /*margin-left: 43%;/*/
+    width: 200px;
+    height: 55px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+}
+.tiaozhuan2{
+    padding: 0 10px;
+    color: white;
+    text-decoration: none
+}
+.tiaozhuan2:hover{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+.col-lg-12, .col-md-12, .col-sm-12, .col-xs-12{
+    padding-right: 0;
+    padding-left: 0;
+}

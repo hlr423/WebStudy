@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/person/Business.css"/>
+    <link rel="stylesheet" href="../css/loader.css">
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <title>了解Comfort</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+@@include("header.html")
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="bg_1">
+                <img src="../images/person-member/Business-1.jpg" class="img-responsive" alt="#">
+            </div>
+            <br>
+            <div class="col-md-12 col-xs-12 text-center">
+                <h2>如果您是</h2>
+                <h1>公司、酒店、公寓、咖啡厅、时尚店、房地产等家具采购方</h1>
+                <p>我们能给您提供全球82位设计大师作品，51家一线工厂精工细作，</p>
+                <p>高效的供应链资源保证产品能及时交付，希望能和您一起创造中国的当代生活印记</p>
+                <br>
+                <br>
+                <img src="../images/person-member/Business-2.jpg" class="img-responsive" alt="#">
+                <p>我们已与真格基金、梦想＋、Mocus、FikaFika、因味茶、极客咖啡等进行了集合采购合作</p>
+                <br>
+                <button class="btn btn-default clickBtn">集合采购</button>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bg_2">
+                <img src="../images/person-member/Business-3.jpg" class="img-responsive" alt="#">
+            </div>
+            <br>
+            <div class="col-md-12 col-xs-12 text-center">
+                <h2>如果您是</h2>
+                <h1>室内设计师、建筑师、装饰设计公司或相关网站和平台</h1>
+                <p>已上线近千个产品，并拥有全国超过17省用户的我们，</p>
+                <p>期待与您携手实现世界可以为中国设计</p>
+                <br>
+                <br>
+                <img src="../images/person-member/Business-4.jpg" class="img-responsive" alt="#">
+                <p>我们已与万科、鑫苑地产、ONE、设计北京、北京设计周、East Hotel、青年艺术100等进行了渠道合作</p>
+                <br>
+                <button class="btn btn-default clickBtn">渠道合作</button>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bg_3">
+                <img src="../images/person-member/Business-5.jpg" class="img-responsive" alt="#">
+            </div>
+            <br>
+            <div class="col-md-12 col-xs-12 text-center">
+                <h2>如果您是</h2>
+                <h1>品牌方，致力于给消费者带来更好的生活方式</h1>
+                <p>我们愿意和您一起进行品牌合作，联合双方的优势资源，取得双方的共赢</p>
+                <br>
+                <br>
+                <img src="../images/person-member/Business-6.jpg" class="img-responsive" alt="#">
+                <p>我们已与好好住、Heyjuice、ENJOY、企鹅吃喝指南、松果、Aloha、Hi百货、百雅轩进行了品牌合作</p>
+                <br>
+                <button class="btn btn-default clickBtn">品牌合作</button>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bg_4">
+                <img src="../images/person-member/Business-7.jpg" class="img-responsive" alt="#">
+            </div>
+            <br>
+            <div class="col-md-12 col-xs-12 text-center">
+                <h2>如果您是</h2>
+                <h1>互联网、电视、平面、或广告类媒体，受众为年轻的新中产阶级</h1>
+                <p>我们非常乐意与您进行媒体合作，共同创造和推广中国当代生活方式</p>
+                <br>
+                <br>
+                <img src="../images/person-member/Business-8.jpg" class="img-responsive" alt="#">
+                <p>我们已接受了Wallpaper、Dezeen、Global Times 环球时报、AD安邸、Elledeco家居廊、Vogue服饰与美容
+                    、智族、界面、好奇心日报、Wall Street Journal、CCTV-NEWS的媒体报道</p>
+                <br>
+                <button class="btn btn-default clickBtn">媒体合作</button>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bg_5">
+                <img src="../images/person-member/Business-9.jpg" class="img-responsive" alt="#">
+            </div>
+            <br>
+            <div class="col-md-12 col-xs-12 text-center">
+                <h2>如果您是</h2>
+                <h1>富于创意，注重功能实用性，及对简洁的形式美有高超技巧的一流设计师</h1>
+                <p>我们正在全球甄选设计师，欢迎加入我们。我们将与全球设计组织，媒体，</p>
+                <p>及海量用户一起，将你的优秀作品推上舞台中央</p>
+                <br>
+                <br>
+                <button class="btn btn-default clickBtn">设计师入驻</button>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bg_6">
+                <img src="../images/person-member/Business-10.jpg" class="img-responsive" alt="#">
+            </div>
+        </div>
+    </div>
+    <!--模态框-->
+    <!--<div class="modal fade bs-example-modal-lg" id="buyer" role="dialog">-->
+        <!--<div class="modal-dialog modal-lg">-->
+            <!--<div class="modal-content">-->
+                <!--<div class="modal-header text-center">-->
+                    <!--<button class="close" data-dismiss="modal">-->
+                        <!--<span style="font-size: 28px">&times;</span>-->
+                    <!--</button>-->
+                    <!--<h3>集合采购</h3>-->
+                    <!--<p>由于寻求采购方较多，您提交以下采购需求后，我们将在2个工作日内与您取得联系</p>-->
+                <!--</div>-->
+                <!--<div class="modal-body">-->
+                    <!--<div class="row">-->
+                        <!--<div class="col-md-5 col-md-offset-1">-->
+                            <!--<p><strong>关于您和您的公司</strong>／About you & your company</p>-->
+                            <!--<hr>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-5 col-md-offset-1">-->
+                            <!--<p><strong>关于您的采购需求</strong>／About your purchase demand</p>-->
+                            <!--<hr>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="modal-footer">-->
+                    <!--<button class="am-btn" data-dismiss="modal"> 确认提交</button>-->
+            <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="container-fluid motal">-->
+
+    <!--</div>-->
+</section>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

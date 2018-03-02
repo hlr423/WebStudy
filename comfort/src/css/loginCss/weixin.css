@@ -1,0 +1,20 @@
+body{
+    background: url("../../images/login/loginBg1.jpg") no-repeat;
+    background-position: center center;
+}
+.weixinImg{
+    width: 60%;
+    padding: 40px 40px;
+    margin: 10% auto 3%;
+    background: rgba(254, 254, 254, 0.3);
+}
+h3{
+    padding: 10px 0 20px;
+    color: white;
+}
+p{
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.sofaNmae{
+    font-weight: bold
+}
+.softDazhe{
+    color: #e97675;
+    font-weight: bold
+}
+.sofaPrice{
+    font-weight: bold
+}
+.label_1,.label_2{
+    background-color: #ffeded;
+    color: #e97675;
+    font-size: 10px;
+    display: inline-block;
+    padding: 2px;
+}
+.label_3{
+    background-color: #eeeeee;
+    color: #4f4f4f;
+    font-size: 10px;
+    display: inline-block;
+    padding: 2px;
+}
+.deletePrice{
+    color: #beb3b3;
+    text-decoration: line-through;
+    font-size: 8px
+;
+}

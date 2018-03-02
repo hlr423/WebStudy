@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>欢迎您回来</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/loginCss/zhuye.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/loader.css">
+</head>
+<body>
+
+@@include("header.html")
+
+<div class="container">
+    <div class="row text-center">
+        <div class="loginMain">
+            <div class="loginLogo">
+                <img class="logo" src="../images/login/logo.png" alt="">
+            </div>
+            <div class="text-main">
+                <p>欢迎加入COMFORT，COMFORT是一个以现代设计改变生活的创作品牌。<br>
+                    我们将世界设计与中国工厂结合，为您送上价格动人，<br>
+                    品质惊艳的家具家居产品。</p>
+            </div>
+            <div class="main-form">
+                <form action="/login.do" method="post">
+                    <h3>欢 迎 您 回 来</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="手机号/邮箱">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="密码">
+                    </div>
+                    <div class="wangji"><a href="wangjimima.html">忘记密码？</a></div>
+                    <button type="submit" class="btn btn-default loginBtn">登陆</button>
+                    <a id="weixin" class="btn btn-default a" href="weixin.html" role="button">
+                        <img class="tubiao" src="../images/login/weixinicB.png" alt="">微信登录
+                    </a>
+                    <a class="btn btn-default a" href="zhucecode.html" role="button">注册账号</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script>
+    $("#weixin").hover(function () {
+        $(this).children()[0].setAttribute("src","../images/login/weixinic.png");
+    },function () {
+        $(this).children()[0].setAttribute("src","../images/login/weixinicB.png");
+    })
+</script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

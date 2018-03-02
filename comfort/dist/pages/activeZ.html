@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>专辑</title>
+
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/activeCSS/activeZ.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--加载动画的div-->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<!--右侧固定的滑动条-->
+<div class="leftMainNav">
+    <a href="code.html">
+        <div class="member">
+            <img src="../images/nav/leftNav_43.png" alt="">
+            <p>会员礼</p>
+        </div>
+    </a>
+    <a href="ShopCar.html">
+        <div class="shopCar">
+            <img src="../images/nav/shopCar.png" alt="">
+            <p>购物车</p>
+        </div>
+    </a>
+    <a href="#">
+        <div class="service">
+            <img src="../images/nav/leftNav_31.png" alt="">
+            <p>客服</p>
+        </div>
+    </a>
+    <a href="#">
+        <div class="backTop">
+            <img src="../images/nav/leftNav_33.png" alt="">
+            <p>回到顶部</p>
+        </div>
+    </a>
+</div>
+<!--页面购物车-->
+<div class="shopCarDiv">
+    <div>
+        <h3>购物车</h3>
+        <p>最新加入的商品</p>
+    </div>
+    <div class="shopCarDivCommodity commodity1">
+        <div class="shopCarDivCommodityImg">
+            <img src="../images/sofa_pic/sofa_a8.jpg" alt="">
+        </div>
+        <div class="shopCarDivCommodityText">
+            <p>传说中的商品名字</p>
+            <p>￥666.00</p>
+        </div>
+        <div class="shopCarDivCommodityIc">
+            <img src= "../images/nav/clos.png" alt="">
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<!--导航条-->
+<header class="header">
+    <div class="container-fluid headerTop">
+        <div class="row toprow">
+            <ul class="TopUl">
+                <li><a href="/activityphps.do"><i class="glyphicon glyphicon-map-marker"></i> 实体店</a></li>
+                <li><a href="AfterSales/UnderstandingZaoZuo.html">了解Comfort</a></li>
+                <li><a href="BusinessCooperation.html">商业合作</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid headerNav">
+        <div class="row">
+            <ul class="leftNav">
+                <li><img class="leftNavlogo" src="../images/nav/logoW.png" alt=""></li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="dingzhi.html">一键装家</a></li>
+                <li>
+                    <a href="sofa.html">沙发</a>
+                    <ul class="submenu sofa">
+                        <li>
+                            <a href="sofa.html">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sofa.html">
+                                <img src="../images/nav/u2.jpg" alt="">
+                                <p>四人沙发</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sofa.html">
+                                <img src="../images/nav/z2.jpg" alt="">
+                                <p>三人沙发</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sofa.html">
+                                <img src="../images/nav/t2.jpg" alt="">
+                                <p>双人沙发</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sofa.html">
+                                <img src="../images/nav/x2.jpg" alt="">
+                                <p>单人沙发</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sofa.html">
+                                <img src="../images/nav/e2.jpg" alt="">
+                                <p>沙发墩</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">桌几</a>
+                    <ul class="submenu Stool">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/v2.jpg" alt="">
+                                <p>书桌·餐桌</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/aa2.jpg" alt="">
+                                <p>茶几</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/n2.jpg" alt="">
+                                <p>边几</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">板凳</a>
+                    <ul class="submenu wooden">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/ww2.jpg" alt="">
+                                <p>座椅</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/d2.jpg" alt="">
+                                <p>坐墩</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/f2.jpg" alt="">
+                                <p>凳子</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">柜架</a>
+                    <ul class="submenu tankBracket">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/hh2.jpg" alt="">
+                                <p>置物架</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/g2.jpg" alt="">
+                                <p>书柜·书架</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/oo2.jpg" alt="">
+                                <p>电视柜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/h2.jpg" alt="">
+                                <p>置物架</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/ff2.jpg" alt="">
+                                <p>衣柜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/oo2.jpg" alt="">
+                                <p>电视柜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/o2.jpg" alt="">
+                                <p>单元格</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/tt2.jpg" alt="">
+                                <p>床头柜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/dd2.jpg" alt="">
+                                <p>衣帽架</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/i2.jpg" alt="">
+                                <p>鞋柜·玄关</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">灯具</a>
+                    <ul class="submenu light">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/zz2.jpg" alt="">
+                                <p>台灯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/uu2.jpg" alt="">
+                                <p>地灯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/r2.jpg" alt="">
+                                <p>吊灯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/w2.jpg" alt="">
+                                <p>夜灯</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">床·床品</a>
+                    <ul class="submenu bed">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/jj2.jpg" alt="">
+                                <p>床</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/gg2.jpg" alt="">
+                                <p>床垫</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/tt2.jpg" alt="">
+                                <p>床头柜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/rr2.jpg" alt="">
+                                <p>床品四件套</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/b2.jpg" alt="">
+                                <p>被芯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/ee2.jpg" alt="">
+                                <p>枕芯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/pp2.jpg" alt="">
+                                <p>床褥</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/p2.jpg" alt="">
+                                <p>床下储蓄盒</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/k2.jpg" alt="">
+                                <p>床尾凳</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">家纺</a>
+                    <ul class="submenu homeTextiles">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/c2.jpg" alt="">
+                                <p>地毯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/y2.jpg" alt="">
+                                <p>盖毯</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/rr2.jpg" alt="">
+                                <p>床品四件套</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/j2.jpg" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/m2.jpg" alt="">
+                                <p>毛巾</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">装饰</a>
+                    <ul class="submenu decorate">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/xx2.jpg" alt="">
+                                <p>摆件·花瓶</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/yy2.jpg" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/qq2.jpg" alt="">
+                                <p>装饰画</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">餐具</a>
+                    <ul class="submenu tableware">
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/quanbu2.jpg" alt="">
+                                <p>全部</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/s2.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/a2.jpg" alt="">
+                                <p>碗盘</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/ii2.jpg" alt="">
+                                <p>杯子</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/q2.jpg" alt="">
+                                <p>储物</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/nav/l2.jpg" alt="">
+                                <p>托盘</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="rightNav">
+                <li><a href="/activityphps.do"><i class="glyphicon glyphicon-map-marker"></i> 实体店</a></li>
+                <li><a href="AfterSales/UnderstandingZaoZuo.html">了解Comfort</a></li>
+                <li><a href="BusinessCooperation.html">商业合作</a></li>
+                <li><a href="Person-Member1.html"><img src="../images/nav/usersW.png" alt=""></a></li>
+                <li><a href="ShopCar.html"><img src="../images/nav/show.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="container-fluid">
+    <div class="row">
+        <img src="../images/az1/az1s.jpg"  class="img-responsive" alt="">
+        <div class="row">
+            <div class=" col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-5 ">
+                <h3>最佳颜艺双馨奖：云团沙发升级版</h3>
+                <p class="text-color">媒体热度、设计指数、用户口碑、跨界频率……4个维度为你盘点COMFORT第一品类沙发</p>
+                <span>¥1699起</span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-md-6">
+                        <button  class="btn buyBtn">立即购买</button>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 col-md-4">
+                        <button class="btn addBtn">加入购物车</button>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+
+        </div>
+        <hr>
+    </div>
+    <!--content1-->
+    <div class="row text-center content1">
+        <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 content1-text">
+            <p>2017年，COMFORT走开了深深浅浅的脚印。你与COMFORT的哪一次相识让你怦然心动？或还是初初见面，对COMFORT还需要更多的了解？接下来的年度榜单特辑，将为你从媒体热度、设计指数、用户口碑和跨界频率等维度，梳理COMFORT最受关注的产品。回看2017，与你分享这些精彩的瞬间。</p>
+        </div>
+        <div class="row">
+            <div class=" col-lg-12">
+                <div class="col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10">
+                    <img src="../images/az1/az1-1.jpg"  class="img-responsive" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--content2-->
+    <div class="row">
+        <div class="col-lg-12 col-md-12 content2 ">
+            <div class=" content2-2 ">
+                <div class="col-md-6 col-lg-6 content2-1">
+                    <div class="content2-3">
+                        <p>你一定记得：</p>
+                        <p>
+                            你一定记得它漂亮的云朵形靠包，5朵云，没有一朵两两一致。半开放围合，像被一团云托起，三项弯曲钢架底座，高难度一体成型。最愉悦的坐感体验，35kg/m³海绵密度，每一次起坐，都成为不愿起身的柔软依靠。
+                        </p>
+                        <p>
+                            2017年的沉淀，它不仅成为用户口碑推荐的实用单品，更成为专业媒体、设计展览、空间改造项目的设计师之选，在设计感与日用功能的平衡上，获得空前的成就，恰如设计师Jonas Wagell所言——“丰盛的简约”。
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 content2-1 content2-1-1">
+                    <p>最佳颜艺双馨奖：云团沙发升级版</p>
+                    <p>媒体热度：<span class="star">★★★</span></p>
+                    <p>设计指数：<span >★★★★</span></p>
+                    <p>用户口碑：<span>★★★★★</span></p>
+                    <p>跨界频率：<span>★★★</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--content3-->
+    <div class="row content7row">
+        <div class="content1">
+            <div class="col-lg-12 col-md-12  ">
+                <h3 class="page-header">1.登录IDEAT法国官网专题报道</h3>
+                <p>
+                    北京颐提港实体店开业之际，COMFORT接受了IDEAT法国版官方网站的采访，云团沙发居中陈列的图片，登录IDEAT设计类专题首页。
+                </p>
+                <p>
+                    ▼ IDEAT为法国设计生活类杂志的引领者，云团沙发在北京店的陈列成为当日专题封面
+                </p>
+                <img src="../images/az1/az1-2.jpg" class="img-responsive" alt="">
+            </div>
+            <!--<div class="col-md-12 col-lg-12 content3-img">-->
+               <!---->
+            <!--</div>-->
+        </div>
+
+    </div>
+    <!--content4-->
+    <div class="row content7row">
+        <div class="row content1">
+            <div class="col-md-12 col-lg-12 ">
+                <h3 class="page-header">2.连续登陆《GQ智族》生活方式专题</h3>
+            </div>
+        </div>
+        <div class="row content1">
+            <div class="col-lg-6 col-md-6">
+                <img src="../images/az1/az1-3.jpg" class="img-responsive" alt="">
+                <div class="row content4-1">
+                    <div class="col-lg-12 col-md-12">
+                        <p>
+                            2017年4月刊的《GQ智族》的“吃喝玩乐一店间”生活方式专题中，云团沙发，以COMFORT幸福里上海店的漂亮陈列，登陆专题扉页。编辑更以“新设计家居主义”的标题，来推荐COMFORT产品和实体店的空间设计。
+                        </p>
+                        <p>▲ 灰白格云团沙发与绛红色盎然边桌，搭配向晚地灯和凝沙羊毛手织地毯，成为COMFORT经典组合之一</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <img src="../images/az1/az1-4.jpg" class="img-responsive" alt="">
+                <div class="row content4-1">
+                    <div class="col-md-12 col-lg-12">
+                        <p>2017年12月刊的《GQ智族》“年度物质记”生活方式专题中，COMFORT的云团沙发，以及鹿铃地灯、旋木小凳、丝绸椅、引号墙架、随形桌、光合氧气花瓶等8件作品，以抢眼的造型亮相大片，并成为“新一年，开启不一样的家”话题的代表性家居设计。</p>
+                        <p>
+                            ▲ 有“国际男性大刊”美誉的《GQ智族》，将云团沙发作为年度物质生活方式专题的开篇家具
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--content5-->
+    <!--content6-->
+    <div class="row content6">
+        <div class="row content9 ">
+            <div class="col-md-12 col-lg-12">
+                <h3 class="page-header">
+                  &nbsp;  3.《时尚新娘Cosmobride》礼物清单推荐
+                </h3>
+                <p>
+                    《时尚新娘Cosmobride》4月春季刊，赵丽颖和林更新以荧幕情侣形象登上封面，在“新婚礼单”栏目中，云团沙发以单品形式亮相，推荐语“幸福就是两个人慵懒地陷在沙发里”。
+                </p>
+            </div>
+            <div class="content6-1">
+                <div class="col-lg-12 col-md-12">
+                    <img src="../images/az1/az1-8.jpg"  class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--content7-->
+    <div class="row content7row">
+            <div class="col-lg-6 col-md-6">
+                <div class="content7">
+                    <h3 class="page-header">4.《梦想改造家》设计师之选，3室2厅爆改1室1厅</h3>
+                    <p>
+                        影响范围极大的东方卫视家装改造节目《梦想改造家》，125㎡戴先生的家，设计师俞挺携手COMFORT，为上海的一家三口，打造了一个如同世外桃源般的“陪你一起长大的家”。                </p>
+                    <p>
+                        设计师将所有的非承重墙拆除，把空间剥离出来，创造一个流动的平面，利用全中国最常见的三室两厅一卫的房屋结构，创建了一个sweet & smart 之家。俞挺说：“这个仙境之家，home wonderland，是依据教育理念来重构空间，它或许是上海未来某种生活观念的家居典范，是一个提前落成的未来之家。”                </p>
+
+                </div>
+
+            </div>
+            <div class="col-md-6 col-lg-6 ">
+                <div class="row content1 content7-img">
+                    <img src="../images/az1/az1-9.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+
+    <!--content8-->
+    <div class="row content7row">
+        <div class="col-md-7 col-lg-7 ">
+            <div class="row content1 content7-img">
+                <div class="col-md-6 col-lg-6">
+                    <img src="../images/az1/az1-10.jpg" class="img-responsive" alt="">
+                    <img src="../images/az1/az1-11.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-6 col-lg-6 content7-1-img">
+                    <!--<img src="../images/az1/az1-11.jpg" class="img-responsive" alt="">-->
+                    <img src="../images/az1/az1-12.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <div class="content7">
+                <h3 class="page-header">5.《暖暖的新家》设计师之选，35㎡老公房变身别墅</h3>
+                <p>
+                    由北京卫视打造的大型家居改造生活服务类真人秀，上海杨浦区一座70年历史的老公房，1958年开始，张晨毅的爷爷带着家人住了进去，35㎡，层高3.3m，最多同时住过10个人。                </p>
+                <p>
+                    经过45天的改造，设计师拆除了屋内所有墙体，对房间格局进行重新规划，同时巧妙将园林融入，每个房间贴上词牌，前候、后候、问情、连理枝......将西厢记中的词汇作为每一个分区的主题，实现园林中的移步易景。最终，35㎡的老式公房变                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--content9-->
+    <div class="row  content7row ">
+      <div class="content1-1">
+          <div class="content9">
+              <div class="  col-lg-12 col-md-12">
+                  <h3 class="page-header">6.最受COMFORT生活家欢迎的沙发Top3</h3>
+
+                  <p>
+                      由北京卫视打造的大型家居改造生活服务类真人秀，上海杨浦区一座70年历史的老公房，1958年开始，张晨毅的爷爷带着家人住了进去，35㎡，层高3.3m，最多同时住过10个人。
+                  </p>
+                  <p>
+                      经过45天的改造，设计师拆除了屋内所有墙体，对房间格局进行重新规划，同时巧妙将园林融入，每个房间贴上词牌，前候、后候、问情、连理枝......将西厢记中的词汇作为每一个分区的主题，实现园林中的移步易景。最终，35㎡的老式公房变
+                  </p>
+
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="row content6">
+        <!--跑马灯-->
+        <div id="demo" class="jcImgScroll">
+            <ul>
+                <li><a href=""><img src="../images/az1/az1-13.jpg" alt=""></a></li>
+                <li><a href=""><img src="../images/az1/az1-14.jpg" alt=""></a></li>
+                <li><a href=""><img src="../images/az1/az1-15.jpg" alt=""></a></li>
+                <li><a href=""><img src="../images/az1/az1-16.jpg" alt=""></a></li>
+                <li><a href=""><img src="../images/az1/az1-17.jpg" alt=""></a></li>
+                <li><a href=""><img src="../images/az1/az1-18.jpg" alt=""></a></li>
+                <li><a href=""><img src="../images/az1/az1-19.jpg" alt=""></a></li>
+                <li><a href=""><img src="../images/az1/az1-20.jpg" alt=""></a></li>
+                <li><a href=""><img src="../images/az1/az1-23.jpg" alt=""></a></li>
+                <li><a href=""><img src="../images/az1/az1-22.jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </div>  <!--轮播-->
+
+    <!--content10-->
+    <div class="row content7row">
+        <div class="row content1 content10 ">
+            <div class="col-md-12 col-lg-12">
+                <h3 class="page-header">
+                    &nbsp; 7.跨界空间里的创意再设计
+                </h3>
+                <p>
+                    不对称造型，没有一个靠枕完全一致，一体成型框架的云团沙发，演绎出云朵般变化莫测的浪漫可爱形象，在COMFORT2017年不同类型的跨界合作空间里，空间设计师、创意人对它进行了不同类型的重新改造，创造更加丰富、有趣、充满活力的设计再造。                </p>
+            </div>
+                <div class="col-lg-3 col-md-3">
+                    <img src="../images/az1/az1-29.jpg"  class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <img src="../images/az1/az1-31.jpg"  class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <img src="../images/az1/az1-32.jpg"  class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <img src="../images/az1/az1-22.jpg"  class="img-responsive" alt="">
+                </div>
+            </div>
+        <div class="row content1 content10">
+                <div class="col-lg-3 col-md-3">
+                    <img src="../images/az1/az1-28(1).jpg"  class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <img src="../images/az1/az1-28(2).jpg"  class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <img src="../images/az1/az1-27.jpg"  class="img-responsive" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <img src="../images/az1/az1-26.jpg"  class="img-responsive" alt="">
+                </div>
+            </div>
+    </div>
+
+    <!--content11-->
+    <div class="row content7row">
+        <div class="row content1">
+            <h3 class="page-header">
+                ▼ 赠给生活的一个美妙暂停，2018，你只缺一个云团沙发
+            </h3>
+            <div class="col-md-12 col-lg-12 content11-img">
+
+                <img src="../images/az1/azp1-1.jpg"  class="" alt="">
+                <img src="../images/az1/azp1-2.jpg"  class="" alt="">
+                <img src="../images/az1/azp1-3.jpg"  class="" alt="">
+                <img src="../images/az1/azp1-4.jpg"  class="" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--页尾-->
+<footer class="footer">
+    <div class="container-fluid main-footer">
+        <div class="footerTop">
+            <ul>
+                <li>
+                    <div class="liDiv1">
+                        <img class="footerLogo" src="../images/nav/logoW.png" alt="">
+                        <p>comfort.com</p>
+                        <a href=""><i class="iconfont">&#xe66a;</i></a>
+                        <a href=""><i class="iconfont">&#xe699;</i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="liDiv2">
+                        <ul>
+                            <li><a href="">关于comfort</a></li>
+                            <li><a href="">团队介绍</a></li>
+                            <li><a href="">设计师团</a></li>
+                            <li><a href="">媒体报道</a></li>
+                            <li><a href="">知识产权</a></li>
+                            <li><a href="">加入我们</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">帮助中心</a></li>
+                            <li><a href="">购物指南</a></li>
+                            <li><a href="">订单管理</a></li>
+                            <li><a href="">常见问题</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">服务支持</a></li>
+                            <li><a href="">服务保障</a></li>
+                            <li><a href="">用户协议</a></li>
+                            <li><a href="">物流售后服务</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">商业合作</a></li>
+                            <li><a href="">集体采购</a></li>
+                            <li><a href="">渠道合作</a></li>
+                            <li><a href="">品牌合作</a></li>
+                            <li><a href="">媒体合作</a></li>
+                            <li><a href="">设计师入驻</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="liDiv3">
+                        <p>联系我们</p>
+                        <p>4000-8888-8888 <span> (9:00~21:00)</span></p>
+                        <a id="footerkefu" href=""><p>在线客服</p></a>
+                        <span class="xian"></span>
+                        <ul>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店1</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店2</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店3</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店4</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店5</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="clear"></li>
+            </ul>
+        </div>
+        <div class="footerBottom">
+            <div class="xian"></div>
+            <div class="text-center">
+                <p>Copyright © 2015 zaozuo.com Inc.All Rights Reserved. 滑稽科技有限责任公司</p>
+                <p>版权所有 滑稽一号 四川成都</p>
+                <p>Comfort官网-全品类设计家居品牌</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js/activeJS/jQuery-jcImgScroll.js"></script>
+<script src="../js/activeJS/jQuery-easing.js"></script>
+<script src="../js/activeJS/activeZ.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户晒单</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="../css/activeCSS/activePingbase.css">
+    <link rel="stylesheet" href="../css/activeCSS/activePing.css">
+    <link rel="stylesheet" href="../css/activeCSS/activePimgModul.css">
+
+    <link rel="stylesheet" href="../css/loader.css">
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="../js/activeJS/css3-mediaqueries.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+@@include("header.html")
+
+<div class="content">
+    <!-- 瀑布流样式开始 -->
+    <div class="waterfull clearfloat" id="waterfull">
+        <ul>
+            <li class="item" data-toggle="modal" data-target=".bs-example-modal-lg">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show1.jpg" alt="">
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">关注COMFORT很久，这次在一个室内私宅的项目中用了很多COMFORT的东西，信封包，抱枕，落地灯...</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show2.jpg" alt="">
+
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">终于有机会买这个灯了，美貌如图。这个地盘特别重，装起来也特别简单，大爱，赞赞赞！</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show3.jpg" alt="">
+
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">房子软装还没搭配完，吊灯灯的效果很不错哦！！！而且做工也是非常好！期待COMFORT更多的...</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show4.jpg" alt="">
+
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">茶几很喜欢，简单又有质感，摸起来很像实木的，挺有分量的，跟云团沙发很搭。我家的家...</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show5.jpg" alt="">
+
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">效果和预期差不多，追求简单干净，舒适整洁的感觉，兼美貌与实用于一体，很好看，其他...</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show6.jpg" alt="">
+                </a>
+                <h2 class="li-title" title=""></h2>
+
+                <p class="description">太完美了，质量做工经得起细看！坐和躺都非常舒适，沙发色彩丰富让人看起来心情愉悦，...</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show7.jpg" alt="">
+
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">COMFORT的沙发让人一眼就看上，沙发腿的设计令人称赞，这样沙发摆在哪里都非常好看，从正...</p>
+                <div class="qianm clearfloat">
+                    <div class="userImg">
+                        <img src="../images/showImg/user1.jpg" alt="">
+                    </div>
+                    <div class="userInfo">
+                        <p>笛子重奏</p>
+                        <p>北京市</p>
+                    </div>
+                    <div class="imgNum">
+                        <span class="glyphicon glyphicon-picture"></span>
+                        <span>2</span>
+                    </div>
+                </div>
+            </li>
+
+            <!--=======================================滑稽==========================================-->
+
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show8.jpg" alt="">
+
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">当时是一看倾心，收货后，因为发现它很好配，实用性强，做工也很好，一点味道都没有，...</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show6.jpg" alt="">
+                </a>
+                <h2 class="li-title" title=""></h2>
+
+                <p class="description">太完美了，质量做工经得起细看！坐和躺都非常舒适，沙发色彩丰富让人看起来心情愉悦，...</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show7.jpg" alt="">
+
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">COMFORT的沙发让人一眼就看上，沙发腿的设计令人称赞，这样沙发摆在哪里都非常好看，从正...</p>
+                <div class="qianm clearfloat">
+                    <div class="userImg">
+                        <img src="../images/showImg/user1.jpg" alt="">
+                    </div>
+                    <div class="userInfo">
+                        <p>笛子重奏</p>
+                        <p>北京市</p>
+                    </div>
+                    <div class="imgNum">
+                        <span class="glyphicon glyphicon-picture"></span>
+                        <span>2</span>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show8.jpg" alt="">
+
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">当时是一看倾心，收货后，因为发现它很好配，实用性强，做工也很好，一点味道都没有，...</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show6.jpg" alt="">
+                </a>
+                <h2 class="li-title" title=""></h2>
+
+                <p class="description">太完美了，质量做工经得起细看！坐和躺都非常舒适，沙发色彩丰富让人看起来心情愉悦，...</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show7.jpg" alt="">
+
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">COMFORT的沙发让人一眼就看上，沙发腿的设计令人称赞，这样沙发摆在哪里都非常好看，从正...</p>
+                <div class="qianm clearfloat">
+                    <div class="userImg">
+                        <img src="../images/showImg/user1.jpg" alt="">
+                    </div>
+                    <div class="userInfo">
+                        <p>笛子重奏</p>
+                        <p>北京市</p>
+                    </div>
+                    <div class="imgNum">
+                        <span class="glyphicon glyphicon-picture"></span>
+                        <span>2</span>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="a-img">
+                    <img src="../images/showImg/show8.jpg" alt="">
+
+                </a>
+                <h2 class="li-title" title=""></h2>
+                <p class="description">当时是一看倾心，收货后，因为发现它很好配，实用性强，做工也很好，一点味道都没有，...</p>
+                <div class="qianm clearfloat">
+                    <div class="info">
+                        <div class="userImg">
+                            <img src="../images/showImg/user1.jpg" alt="">
+                        </div>
+                        <div class="userInfo">
+                            <p>笛子重奏</p>
+                            <p>北京市</p>
+                        </div>
+                        <div class="imgNum">
+                            <span class="glyphicon glyphicon-picture"></span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- loading按钮自己通过样式调整 -->
+    <!--<div id="imloading" style="width:150px;height:30px;line-height:30px;font-size:16px;text-align:center;border-radius:3px;opacity:0.7;background:#000;margin:10px auto 30px;color:#fff;display:none">-->
+        <!--I'm Loading.....-->
+    <!--</div>-->
+
+
+   <!--模态框-->
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <button type="button" class="close closeM" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="row">
+                    <!--左右按钮-->
+                    <!--<div class="row bt-span">-->
+                        <!--<div class="circle left"><span class="glyphicon glyphicon-menu-left"></span></div>-->
+                        <!--<div class="circle right"><span class="glyphicon glyphicon-menu-right"></span></div>-->
+                    <!--</div>-->
+                    <!--left-->
+                    <div class="col-sm-8 scroll ">
+                        <div class="showImg scroll-son ">
+                            <img src="../images/showImg/show1-1.jpg" alt="">
+                            <img src="../images/showImg/show1-2.jpg" alt="">
+                            <img src="../images/showImg/show1-3.jpg" alt="">
+                        </div>
+                        <div class="shopCar">
+                            <button class="shopBtn">加入购物车</button>
+                        </div>
+                    </div>
+                    <!--rigth-->
+                    <div class="col-sm-4 scroll padding ">
+                        <div class="showInf scroll-son right-bottom">
+                            <div class="row padding">
+                                <div class="col-sm-8 ">
+                                    <dl>
+                                        <dt>LOREM</dt>
+                                        <dd class="dd dd1">北京</dd>
+                                        <dd class="dd dd2">已经获得2元优惠券</dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-4 userImgIn">
+                                    <img src="../images/showImg/user1.jpg" alt="">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row padding">
+                                <p>我只想说完美，买的大号，copy官网的盆景设计，通过万能的某宝买齐了需要的原材料。自己折腾了半个小时完美收工，太喜欢了，晒给朋友看纷纷问花瓶哪里买的，我又给安利了以后COMFORT，哈哈。</p>
+                            </div>
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">小山空气花瓶</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <div class="border1">
+                                    <p>水培植物之家，微观景色的写意绿园</p>
+                                    <hr>
+                                    <p>中国|北京</p>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                            <h4><b>TA还购买了</b></h4>
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">蜡笔手织地垫</p>
+                                <p class="text">￥<span>49</span>起</p>
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">渔舟实木托盘</p>
+                                <p class="text">￥<span>49</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">圆率装饰花瓶</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">莹贝餐具10件组</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">COFA</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">云团沙发升级版</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">布丁坐墩</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">阡陌毯</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">棉花糖纱布毛巾被</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">花年抱枕</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">COMFORT百合椅™</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">镜线餐具组</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">向晚地灯</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">蘑菇调料罐</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">线几升级版</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">线几升级版</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">COMFORT有眠™－柔纤枕芯</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">COMFORT有眠™－撞色系列</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+
+                            <div class="row proImg text-center">
+                                <img src="../images/showImg/showImgPing1.jpg"  alt="">
+                                <p class="text">COMFORT有眠™－轻羽被芯（薄)...</p>
+                                <p class="text">￥<span>79</span>起</p>
+
+                                <!--<div class="border1">-->
+                                <!--<p>水培植物之家，微观景色的写意绿园</p>-->
+                                <!--<hr>-->
+                                <!--<p>中国|北京</p>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js/activeJS/jQueryColor.js"></script>
+<script src="../js/activeJS/jquery.masonry.min.js"></script>
+<script src="../js/activeJS/jQeasing.js"></script>
+<script src="../js/activeJS/activePing.js">
+
+</script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

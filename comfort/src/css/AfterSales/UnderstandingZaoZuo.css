@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Microsoft YaHei" ;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+.image1{
+    padding:4px 2px 5px 0;
+}
+.image2{
+    padding:4px 0 5px 2px;
+}
+.photo img{
+    width: 100%;
+    height: auto;
+}
+/*---------------------------------------------banner图板块  over -----------------------------------------------*/
+.h4{
+    width: 80%;
+    margin: 0 auto;
+}
+.h4-1{
+    width: 100%;
+    text-align: center;
+}
+.line{
+    width: 5%;
+    height: 0;
+    text-align: center;
+    margin:40px auto 20px;
+    border: 1px black solid;
+    background-color: black;
+}
+.banner2{
+    width: 80%;
+    margin: 80px auto ;
+}
+.banner2 img{
+    width:100%;
+    height:auto;
+}
+/*--------------------------------------------第二个banner图  over  --------------------------------------------*/
+.h3{
+    width: 80%;
+    margin: 0 auto;
+}
+.h3-1{
+    width: 100%;
+    text-align: center;
+}
+.h3-1 p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom:2em;
+}
+.SheJiShi{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.image{
+    padding: 2px;
+}
+.photo{
+    width: 100%;
+    height: auto;
+}
+.sheJi{
+    display: block;
+    width:175px;
+    height:45px;
+    border-radius: 45px;
+    margin: 50px auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+}
+.sheJi:link{
+    text-decoration: none;
+}
+.sheJi:visited{
+    text-decoration: none;
+}
+.sheJi:hover{
+    text-decoration: none;
+    color: white;
+}
+.sheJi:active{
+    text-decoration: none;
+}
+/*---------------------------------------------设计师展示板块  over  ----------------------------------*/
+.banner3{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.banBan{
+    width: 100%;
+    height: auto;
+}
+.banner4{
+    width: 80%;
+    height:auto;
+    margin: 5px auto;
+}
+.bban{
+    width: 100%;
+    height: auto;
+}
+/*-------------------------------------banner 3 4 图板块  over  -----------------------------------*/
+.souSuo{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.userClick{
+    margin: 0 auto;
+}
+.flip{
+    cursor: pointer;
+}
+#panel{
+    display: none;
+    outline: 1px red solid;
+}
+.Earth {
+    width: 100%;
+    height: auto;
+
+}
+.sPan{
+    padding-bottom:30px;
+    /*font-weight: 900;*/
+}
+
+.souSuo1{
+    position: relative;
+}
+.souWz{
+    width: 35%;
+    height: 200px;
+    position:absolute;
+    font-family: "Microsoft YaHei";
+    top:150px;
+    overflow: hidden;
+}
+.banner5{
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+}
+.b5{
+    width: 100%;
+    height: auto;
+}
+.work{
+    width: 100%;
+    height: auto;
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--<link rel="stylesheet" href="font/iconfont.css"/>-->
+  <title>百变定制</title>
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="/css/dingzhi/biabian.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="row div2 text-center">
+      <div class="float">
+        <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/3.png" alt=""></a>
+      </div>
+      <div class="glyphicon glyphicon-menu-right float1"></div>
+      <div class="float">
+        <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/4.png" alt=""></a>
+      </div>
+      <div class="glyphicon glyphicon-menu-right float1"></div>
+      <div class="float">
+        <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/5.png" alt=""></a>
+      </div>
+      <div class="glyphicon glyphicon-menu-right float1"></div>
+      <div class="float">
+        <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/6.png" alt=""></a>
+      </div>
+      <div class="glyphicon glyphicon-menu-right float1"></div>
+      <div class="float">
+        <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/7.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+  <img src="../images/dingzhi/dingzhi/1.jpg" alt="" class="img-responsive myimg">
+  <div class="container">
+    <div class="row text-center">
+      <ul class="ul1 text-center">
+        <li><a href="/dingzhi.html">一件装家</a></li>
+        <li><a href="/baibiandingzhi.do">百变定制</a></li>
+        <li><a href="/quanwu.html">全屋定制</a></li>
+        <li><a href="/shijishi.html">找设计师</a></li>
+        <li><a href="#">定制攻略</a></li>
+        <li><a href="#">定制百科</a></li>
+        <li><a href="/mianfei.html">在线免费设计</a></li>
+      </ul>
+    </div>
+    <div class="row mydiv"> <div class="mydiv1"></div></div>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <div class="row text-center div3">
+      <ul class="ul2 text-center">
+        <li><a href="#">所有</a></li>
+        <li><a href="#">卧房</a></li>
+        <li><a href="#">书房</a></li>
+        <li><a href="#">青少年房</a></li>
+        <li><a href="#">客房</a></li>
+        <li><a href="#">餐厅</a></li>
+        <li><a href="#">厨房</a></li>
+      </ul>
+    </div>
+
+
+    <div class="row mylan waterfull" id="waterfull">
+        <%for(var i=0;i<baibian.length;i++){%>
+      <div class="col-xs-3 div4">
+        <div class="myRotate col-xs-12">
+          <div class="one">
+            <img src="<%=baibian[i].zhengtupian%>" alt="" class="img-responsive">
+          </div>
+          <div class="two">
+            <img src="<%=baibian[i].fantupian%>" alt="" class="img-responsive">
+          </div>
+        </div>
+        <p class="text-center"><%=baibian[i].wenzi%></p>
+        <div class="col-xs-8 col-xs-offset-2">
+          <p class="glyphicon glyphicon-home text-center myp1">体验配套方案</p>
+        </div>
+      </div>
+        <%}%>
+    </div>
+  </div>
+</section>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/activeJS/jquery.masonry.min.js"></script>
+<script type="text/javascript" src="js/activeJS/jQeasing.js"></script>
+<script src="js/dingzhi/baibian.js"></script>
+
+</body>
+</html>

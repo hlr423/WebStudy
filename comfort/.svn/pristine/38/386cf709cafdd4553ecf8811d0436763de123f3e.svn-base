@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>微信二维码</title>
+    <link rel="stylesheet" href="../css/loginCss/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/loginCss/weixin.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/loader.css">
+
+</head>
+<body>
+
+@@include("header.html")
+
+<div class="container">
+    <div class="row text-center">
+        <div class="weixinImg">
+            <div class="wenzi">
+                <h3>微 信 登 录</h3>
+            </div>
+            <div>
+                <img src="../images/login/weixin.jpg" alt="">
+            </div>
+            <div class="imgText">
+                <p>请使用微信扫描二维码<br>
+                    登录COMFORT</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

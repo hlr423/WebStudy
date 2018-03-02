@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/person/Mycollect3.css"/>
+    <link rel="stylesheet" href="../css/person/CommonList.css">
+    <!--<link rel="stylesheet" href="../fonts/iconfont.css"/>-->
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <title>我的收藏-其他</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+@@include("header.html")
+
+<section class="mainBody">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-xs-2">
+                <div class="navBox text-center">
+                    <ul>
+                        <!--<li style="height: 60px;line-height: 60px">当前位置 | 会员中心</li>-->
+                        <li><a href="Person-Member1.html">会员中心 <span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Myorder1.html">我的订单<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Invite-award.html">邀请奖励<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mydiscount.html">我的优惠券<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Myinformation.html">我的消息<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mypic.html">我的晒单<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mydata.html">我的资料<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mycollect1.html">我的收藏<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-xs-10">
+                <br>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="bg1">
+                            <ul class="nav-Tab">
+                                <li><a href="Mycollect1.html">单品<span>(1)</span></a></li>
+                                <li><a href="Mycollect2.html" >设计师<span>(1)</span></a></li>
+                                <li><a href="Mycollect3.html" style="color:#5bb688;">其他<span style="color:#5bb688;">(1)</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="bg2">
+                            <div class="other">
+                                <a href="">
+                                    <img src="../images/person-member/Mycollect3.jpg" class="img-responsive" alt="">
+                                    <div class="wrap"></div>
+                                </a>
+                                <h4>北京快闪概念店 | 王府井apm商场L103</h4>
+                                <p class="text-gray">造作首家快闪店开幕，上千个气球温暖冬日王府井</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

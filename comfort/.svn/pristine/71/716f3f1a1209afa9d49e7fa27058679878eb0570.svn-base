@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/person/Business.css"/>
+    <!--<link rel="stylesheet" href="font/iconfont.css"/>-->
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <title>找设计师</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../css/dingzhi/shejishi.css">
+</head>
+<body>
+
+@@include("header.html")
+
+<section>
+    <div class="container">
+        <div class="row div2 text-center">
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/3.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/4.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/5.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/6.png" alt=""></a>
+            </div>
+            <div class="glyphicon glyphicon-menu-right float1"></div>
+            <div class="float">
+                <a href="dingzhiliu.html"><img src="../images/dingzhi/dingzhi/7.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <img src="../images/dingzhi/dingzhi/1.jpg" alt="" class="img-responsive myimg1">
+    <div class="container">
+        <div class="row text-center">
+            <ul class="ul1 text-center">
+                <li><a href="dingzhi.html">一件装家</a></li>
+                <li><a href="/baibiandingzhi.do">百变定制</a></li>
+                <li><a href="quanwu.html">全屋定制</a></li>
+                <li><a href="shijishi.html">找设计师</a></li>
+                <li><a href="#">定制攻略</a></li>
+                <li><a href="#">定制百科</a></li>
+                <li><a href="mianfei.html">在线免费设计</a></li>
+            </ul>
+        </div>
+        <div class="row mydiv"> <div class="mydiv1"></div></div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <h3><span class="glyphicon glyphicon-play myspan"></span>设计师团队</h3>
+            <p> 由量房设计师、室内设计师、家具设计师、软装设计师组成的强大设计团队，
+                一对一专属定制个性需求与户型特点，让您的生活从此与众不同！
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="../images/dingzhi/shejishi/1.jpg" alt="" class="img-responsive myimg2">
+                <div class=" col-xs-12 text-center folatdiv">
+                    <h3>顶级设计师</h3>
+                    <p>有效布局，合理使用空间</p>
+                </div>
+            </div>
+            <div class="col-xs-1 myimg">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru" >
+                <img src="../images/dingzhi/shejishi/3.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+            </div>
+            <div class="col-xs-1 myimg">
+                <img src="../images/dingzhi/shejishi/5.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/6.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/5.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+            </div>
+            <div class="col-xs-1 myimg">
+                <img src="../images/dingzhi/shejishi/7.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/8.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/7.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+            </div>
+            <div class="col-xs-1 myimg">
+                <img src="../images/dingzhi/shejishi/2.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/9.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/2.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+            </div>
+            <div class="col-xs-1 myimg">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/3.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+            </div>
+            <div class="col-xs-1 myimg">
+                <img src="../images/dingzhi/shejishi/5.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/6.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/5.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+            </div>
+            <div class="col-xs-1 myimg">
+                <img src="../images/dingzhi/shejishi/7.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/8.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/7.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+            </div>
+            <div class="col-xs-1 myimg">
+                <img src="../images/dingzhi/shejishi/2.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/9.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/2.jpg" alt="" class="img-responsive myyiru">
+                <img src="../images/dingzhi/shejishi/4.jpg" alt="" class="img-responsive myyiru">
+            </div>
+        </div>
+        <div class="row">
+            <h3><span class="glyphicon glyphicon-play myspan"></span>设计师免费上门量尺</h3>
+            <p> 不用研究复杂的户型图和预算，不用费力跑家居卖场……享受新居网免费量尺设计，
+                48小时出方案服务，轻松打造梦想家，就这么简单！
+            </p>
+            <div class="col-xs-6">
+                <img src="../images/dingzhi/shejishi/dream_bg.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-xs-6">
+                <div class="row text-center">
+                    <div class="formDiv">
+                        <form action="" method="post">
+                            <h3 onclick="myh33()" id="myh333">申请免费量尺</h3>
+                            <div class="form-group" id="input1">
+                                <input type="password" class="form-control" id="exampleInputEmail300" placeholder="姓名">
+                                <select   id="exampleInputEmail3001">
+                                    <option value="0">男士</option>
+                                    <option value="1">女士</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail3" placeholder="手机号">
+                            </div>
+                            <div class="form-group" id="input2">
+                                <select  id="sheng" onchange="changeCity()">
+                                    <option value="0">四川省</option>
+                                    <option value="1">广东省</option>
+                                    <option value="2">湖北省</option>
+                                    <option value="3">湖南省</option>
+                                    <option value="4">山东省</option>
+                                </select>
+                                <select  id="shi">
+                                    <option value="0">成都</option>
+                                    <option value="1">乐山</option>
+                                    <option value="2">绵阳</option>
+                                    <option value="3">遂宁</option>
+                                    <option value="4">攀枝花</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <a href="#">
+                                    <button id="exampleInputPassword31">提交申请</button>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+        <div class="row">
+            <h3><span class="glyphicon glyphicon-play myspan"></span>客户实例</h3>
+            <p> 万千家庭口碑见证 尚品宅配设计师为约700万客户解决了多种家居问题</p>
+        </div>
+        <div class="row">
+            <div class="col-xs-4  mydiv2">
+                <img src="../images/dingzhi/anli/1_01.jpg" alt="" class="img-responsive myimg3">
+                <div class="col-xs-5 myimg3">
+                    <h4>9㎡青少年房</h4>
+                </div>
+                <div class="col-xs-5 myimg3">
+                    <h4>郑先生</h4>
+                </div>
+                <div class="col-xs-10">
+                    <hr>
+                </div>
+                <div class="col-xs-12 myimg3" style="color: red">
+                    <h4>客户需求</h4>
+                </div>
+                <div class="col-xs-12 myimg3">
+                    <p>粉色女孩房，需要上下床、衣柜和书桌</p>
+                </div>
+                <div class="col-xs-10">
+                    <hr>
+                </div>
+                <div class="col-xs-12 myimg3" style="color: red">
+                    <h4>设计师解决</h4>
+                </div>
+                <div class="col-xs-4 myimg3 text-center">
+                    <img src="../images/dingzhi/anli/8.jpg" alt="" class="img-responsive">
+                    <p>王小晓</p>
+                </div>
+                <div class="col-xs-7 myimg3 mydiv2">
+                    <p>卧室的格局布置比较紧凑，配色清新。合理利用飘窗，打造了书柜、书桌定制组合，
+                        为孩子提供了学习休息的环境。上下床侧边增加隔板，避免了入门见床的尴尬。</p>
+                </div>
+            </div>
+            <div class="col-xs-4 text-center mydiv2">
+                <img src="../images/dingzhi/anli/2_01.jpg" alt="" class="img-responsive myimg3">
+                <div class="col-xs-5 myimg3">
+                    <h4>8㎡书房</h4>
+                </div>
+                <div class="col-xs-5 myimg3">
+                    <h4>蒋先生</h4>
+                </div>
+                <div class="col-xs-10">
+                    <hr>
+                </div>
+                <div class="col-xs-12 myimg3 text-left" style="color: red">
+                    <h4>客户需求</h4>
+                </div>
+                <div class="col-xs-12 myimg3">
+                    <p>希望设计简约不失个性，通过定制弥补户型凹位缺</p>
+                </div>
+                <div class="col-xs-10">
+                    <hr>
+                </div>
+                <div class="col-xs-12 myimg3 text-left" style="color: red">
+                    <h4>设计师解决</h4>
+                </div>
+                <div class="col-xs-4 myimg3 text-center">
+                    <img src="../images/dingzhi/anli/13.jpg" alt="" class="img-responsive">
+                    <p>王小晓</p>
+                </div>
+                <div class="col-xs-7 myimg3 mydiv2">
+                    <p>柜体采用新柚木+亮白面板，时尚灵动，搭配墨绿色沙发，简约中增添几分复古韵味。
+                        玄关和电视背景墙的两处凹位定制了嵌入柜体，满足储物需求，让空间更整洁。</p>
+                </div>
+            </div>
+            <div class="col-xs-4 text-center mydiv2">
+                <img src="../images/dingzhi/anli/3_01.jpg" alt="" class="img-responsive myimg3">
+                <div class="col-xs-5 myimg3">
+                    <h4>20㎡卧房</h4>
+                </div>
+                <div class="col-xs-5 myimg3">
+                    <h4>余先生</h4>
+                </div>
+                <div class="col-xs-10">
+                    <hr>
+                </div>
+                <div class="col-xs-12 myimg3 text-left" style="color: red">
+                    <h4>客户需求</h4>
+                </div>
+                <div class="col-xs-12 myimg3">
+                    <p>想要一个假飘窗，有足够的储物空间，舒适实用</p>
+                </div>
+                <div class="col-xs-10">
+                    <hr>
+                </div>
+                <div class="col-xs-12 myimg3 text-left" style="color: red">
+                    <h4>设计师解决</h4>
+                </div>
+                <div class="col-xs-4 myimg3 text-center">
+                    <img src="../images/dingzhi/anli/9.jpg" alt="" class="img-responsive">
+                    <p>王小晓</p>
+                </div>
+                <div class="col-xs-7 myimg3 mydiv2">
+                    <p>根据户型特点，进门设计到顶的趟门衣柜。靠窗是带有升降台的榻榻米+吊柜组合，
+                        平时可以看书、办公，兼具收纳功能。欧式的造型面板搭配皮革软包，整体温馨大气</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/dingzhi/shejishi.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

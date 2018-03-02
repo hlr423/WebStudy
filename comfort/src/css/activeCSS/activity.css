@@ -1,0 +1,102 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+    font-family: "微软雅黑";
+}
+
+.col-md-6{
+    width: 47.5%;
+    margin: 8px 8px;
+    /*padding-right: 5px;*/
+    padding-left: 5px;
+}
+
+a{
+    color: #0f0f0f;
+}
+#nav a{
+    color: #0f0f0f;
+}
+#nav a:hover{
+    background-color: #000000;
+    color: white;
+}
+#nav{
+    width: 100%;
+    margin-top: 10%;
+}
+#nav a{
+    margin-left:8%;
+}
+.content1{
+    margin-left: 10px;
+    margin-top: 3%;
+    font-size: 10px;
+}
+.content1 .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+hr{
+    color: black;
+}
+
+.text-left p{
+    margin: 2% 4px;
+}
+.btn-info{
+    padding: 2px 0;
+}
+.text-type{
+    padding-left: 0;
+}
+.zhe{
+    position: absolute;
+    margin: 10px;
+    top: 0;
+    left: 0;
+    width: 96%;
+    height: 305px;
+    background-color: rgba(238, 231, 235, 0.22);
+}
+.text-left:hover .zhe{
+    visibility: hidden;
+    cursor: pointer;
+}
+.content3-left #tm_type{
+    opacity: 0;
+    color: white;
+}
+.huaji{
+    opacity: 0;
+    color: white;
+}
+/*阴影旋转消失*/
+.text-left h4{
+    padding-top: 10px;
+}
+.img-right:hover h4{
+    color: #6dd3dc;
+}
+.img-left:hover h4{
+    color: #6dd3dc;
+}
+
+
+.mainContainer{
+    /*width: 1280px;*/
+}
+.col-md-6{
+    padding: 10px;
+    /*border: 0px solid darkgray;*/
+    box-shadow: 0 0 12px gainsboro;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.col-md-6:hover{
+    box-shadow: 2px 2px 30px #b5b5b5;
+}
+.page-header{
+    border-bottom: none;
+}

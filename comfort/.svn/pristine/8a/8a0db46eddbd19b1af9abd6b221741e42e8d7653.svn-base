@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/person/Person-Member.css"/>
+    <link rel="stylesheet" href="../css/person/CommonList.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css"/>
+
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/footer.css">
+    <link rel="stylesheet" href="../css/nav/fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <title>个人中心-已登陆</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+@@include("header.html")
+
+<section class="mainBody">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-xs-2">
+                <div class="navBox text-center">
+                    <ul>
+                        <!--<li style="height: 60px;line-height: 60px">当前位置 | 会员中心</li>-->
+                        <li><a href="Person-Member1.html">会员中心 <span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Myorder1.html">我的订单<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Invite-award.html">邀请奖励<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mydiscount.html">我的优惠券<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Myinformation.html">我的消息<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mypic.html">我的晒单<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mydata.html">我的资料<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                        <li><a href="Mycollect1.html">我的收藏<span class="glyphicon glyphicon-menu-right Right" aria-hidden="true"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-xs-10">
+                <div class="row head">
+                    <br>
+                    <br>
+                    <div class="P-img">
+                        <img src="../images/person-member/Person-Member1.jpg" class="img-responsive" alt="">
+                    </div>
+                    <p class="username">用户名</p>
+                    <a href="" class="text-center">了解会员体系</a>
+                    <br>
+                    <br>
+                    <!--<hr>-->
+                </div>
+                <div class="row text-center">
+                    <h2>成为会员，享受丰富特权</h2>
+                    <br>
+                    <div class="hoverBox">
+                        <br>
+                        <div class="row text-center">
+                            <div class="col-md-3 col-xs-12 hover">
+                                <span class="iconfont">&#xe67f;</span>
+                                <p><strong>升级礼</strong></p>
+                                <p class="text-gray">累计¥23000全场券</p>
+                                <p class="text-gray">低至88折</p>
+                                <div class="member-box">&nbsp;¥23000&nbsp;</div>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hover">
+                                <span class="iconfont">&#xe64c;</span>
+                                <p><strong>生日礼</strong></p>
+                                <p class="text-gray">￥600档位精选实物礼</p>
+                                <p class="text-gray">¥2000全场券，低至88折</p>
+                                <div class="member-box">&nbsp;¥2600&nbsp;</div>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hover">
+                                <span class="iconfont">&#xe662;</span>
+                                <p><strong>邀请奖励</strong></p>
+                                <p class="text-gray">邀请好友，奖励</p>
+                                <p class="text-gray">88折全场优惠</p>
+                                <div class="member-box">&nbsp;88折&nbsp;</div>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hover">
+                                <span class="iconfont">&#xe605;</span>
+                                <p><strong>专属会员价</strong></p>
+                                <p class="text-gray">精选商品会员专属优惠</p>
+                                <div class="member-box">&nbsp;专属折扣&nbsp;</div>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <br>
+                            <div class="col-md-3 col-xs-12 hover">
+                                <span class="iconfont">&#xe6ac;</span>
+                                <p><strong>晒单返券</strong></p>
+                                <p class="text-gray">成交价10%全场券奖励</p>
+                                <div class="member-box">&nbsp;10%&nbsp;</div>
+                                <br>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hover">
+                                <span class="iconfont">&#xe8c0;</span>
+                                <p><strong>会员惊喜</strong></p>
+                                <p class="text-gray">不定期会员专属活动</p>
+                                <p class="text-gray">给你惊喜</p>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hover">
+                                <span class="iconfont">&#xe610;</span>
+                                <p><strong>线下活动</strong></p>
+                                <p class="text-gray">线下活动优先受邀</p>
+                                <br>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <h2 class="text-center">完善任意3项资料即可快速成为会员，享受特权</h2>
+                    <br>
+                    <div class="col-md-8 col-md-offset-2 col-xs-12">
+                        <div class="hoverBox">
+                            <div class="row">
+                                <div class="col-xs-10 col-xs-offset-1">
+                                    <br>
+                                    <h3>完善个人资料</h3>
+                                    <p class="text-gray">了解你多一点，好让造作君为你准备更贴心的惊喜</p>
+                                    <span>•  设置头像</span>
+                                    <span class="moveSP">•  设置生日</span>
+                                    <span class="moveSP">•  设置昵称</span>
+                                    <span class="moveSP">•  设置性别</span>
+                                    <a id="goSet" href="">去设置<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="color: white;"></span></a>
+                                    <br>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include("footer.html")
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/nav/nav1.js"></script>
+</body>
+</html>

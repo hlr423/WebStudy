@@ -1,0 +1,73 @@
+<!--页尾-->
+<footer class="footer">
+    <div class="container-fluid main-footer">
+        <div class="footerTop">
+            <ul>
+                <li>
+                    <div class="liDiv1">
+                        <img class="footerLogo" src="../images/nav/logoW.png" alt="">
+                        <p>comfort.com</p>
+                        <a href=""><i class="iconfont">&#xe66a;</i></a>
+                        <a href=""><i class="iconfont">&#xe699;</i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="liDiv2">
+                        <ul>
+                            <li><a href="">关于comfort</a></li>
+                            <li><a href="">团队介绍</a></li>
+                            <li><a href="">设计师团</a></li>
+                            <li><a href="">媒体报道</a></li>
+                            <li><a href="">知识产权</a></li>
+                            <li><a href="">加入我们</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">帮助中心</a></li>
+                            <li><a href="">购物指南</a></li>
+                            <li><a href="">订单管理</a></li>
+                            <li><a href="">常见问题</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">服务支持</a></li>
+                            <li><a href="">服务保障</a></li>
+                            <li><a href="">用户协议</a></li>
+                            <li><a href="">物流售后服务</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">商业合作</a></li>
+                            <li><a href="">集体采购</a></li>
+                            <li><a href="">渠道合作</a></li>
+                            <li><a href="">品牌合作</a></li>
+                            <li><a href="">媒体合作</a></li>
+                            <li><a href="">设计师入驻</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="liDiv3">
+                        <p>联系我们</p>
+                        <p>4000-8888-8888 <span> (9:00~21:00)</span></p>
+                        <a id="footerkefu" href=""><p>在线客服</p></a>
+                        <span class="xian"></span>
+                        <ul>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店1</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店2</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店3</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店4</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i> 实体店5</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="clear"></li>
+            </ul>
+        </div>
+        <div class="footerBottom">
+            <div class="xian"></div>
+            <div class="text-center">
+                <p>Copyright © 2015 zaozuo.com Inc.All Rights Reserved. 滑稽科技有限责任公司</p>
+                <p>版权所有 滑稽一号 四川成都</p>
+                <p>Comfort官网-全品类设计家居品牌</p>
+            </div>
+        </div>
+    </div>
+</footer>

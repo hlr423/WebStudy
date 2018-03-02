@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}
+.closeM{
+    margin: 10px;
+    font-size: 25px;
+}
+
+/*!*左右按钮*!*/
+/*.circle{*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*border-radius: 50px;*/
+    /*background-color: #dcdcdc;*/
+/*}*/
+/*.left{*/
+    /*position: absolute;*/
+    /*top: 300px;*/
+    /*left:-25px;*/
+    /*z-index: 99;*/
+
+/*}*/
+/*.right{*/
+    /*position: absolute;*/
+    /*top: 300px;*/
+    /*right: -25px;*/
+    /*z-index: 99;*/
+/*}*/
+/*.left span{*/
+    /*margin-top: 13px;*/
+/*}*/
+/*.right span{*/
+   /*margin-top: 13px;*/
+/*}*/
+/*.bt-span{*/
+    /*display: inline-block;*/
+    /*color: white;*/
+    /*width: 20px;*/
+    /*height: 24px;*/
+    /*font-size: 20px;*/
+    /*text-align: center;*/
+/*}*/
+/*.right:hover{*/
+    /*background-color: #a3a3a3;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.left:hover{*/
+    /*background-color: #a3a3a3;*/
+    /*cursor: pointer;*/
+/*}*/
+.shopCar{
+    position: fixed;
+    bottom: 6%;
+    left: 462px;
+    width: 100%;
+    height: 50px;
+}
+.shopBtn{
+    height: 35px;
+    width: 120px;
+    border: 0;
+    font-size: 14px;
+    /*font-weight: bolder;*/
+    background-color: rgba(255, 255, 255, 0.42);
+}
+
+.shopBtn:hover{
+    color: white;
+    background-color: #4f9972;
+}
+.showImg{
+    margin: 50px 30px;
+        width: 95%;
+        height: 520px;
+}
+.showImg img{
+    margin-top: 20px;
+}
+.showImg img:first-child{
+    margin-top: 0;
+}
+.showImg img{
+    width: 100%;
+
+}
+
+.scroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+
+
+}
+.scroll-son{
+    overflow-x: hidden;
+    /*overflow-y: visible;*/
+
+}
+/*==================================冯小龙滚动条样式测试===========================================*/
+/*滚动条样式*/
+.showImg::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 8px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+}
+.showImg::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(211, 218, 219, 0.66);
+    background: rgb(226, 231, 238);
+}
+.showImg::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    /*-webkit-box-shadow: inset 0 0 10px rgba(100, 100, 100, 0.2);*/
+    border-radius: 5px;
+    /*background: rgba(192, 192, 192, 0.1);*/
+}
+
+.showInf::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 8px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+}
+.showInf::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(211, 218, 219, 0.66);
+    background: rgb(226, 231, 238);
+}
+.showInf::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    /*-webkit-box-shadow: inset 0 0 10px rgba(100, 100, 100, 0.2);*/
+    border-radius: 5px;
+    /*background: rgba(192, 192, 192, 0.1);*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.showInf{
+    width: 100%;
+    height: 520px;
+
+}
+.padding{
+    padding: 0 20px;
+}
+.right-bottom{
+    padding-bottom: 30px;
+}
+.userImg{
+    width: 80px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.userImgIn{
+    width: 80px;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.userImgIn img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.dd{
+    margin-top: 5px;
+}
+  .dd1{
+    color: #a9a9a9;
+    font-size: 12px;
+}
+  .dd2{
+      color: #ffaa27;
+  }
+  .proImg img{
+      width: 50%;
+  }
+
+  .line{
+      border: 2px solid #e1e1e1;
+  }
+
+
+
+
+
+

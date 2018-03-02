@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #3e3e3e;
+}
+/*.navBox{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+/*.navBox>ul{*/
+    /*border: 1px solid #e5e5e5;*/
+    /*border-radius: 2px;*/
+    /*background-color: #fafafa;*/
+/*}*/
+/*.navBox>ul>li{*/
+    /*list-style: none;*/
+    /*!*float: left;*!*/
+/*}*/
+/*.navBox>ul>li>a:hover{*/
+    /*background-color:#3e3e3e ;*/
+    /*color: white;*/
+    /*transform: scale(1.05);*/
+/*}*/
+/*.navBox>ul>li>a:hover .Right{*/
+    /*opacity: 1;*/
+    /*transform: translateX(15px);*/
+    /*color: white;*/
+/*}*/
+/*.navBox>ul>li>a{*/
+    /*text-decoration: none;*/
+    /*color: #3e3e3e;*/
+    /*display: inline-block;*/
+    /*width: 100%;*/
+    /*height: 60px;*/
+    /*line-height: 60px;*/
+    /*!*border: 1px solid #c0c0c0;*!*/
+    /*transition: all .4s linear;*/
+    /*border-radius: 2px;*/
+/*}*/
+/*.Right{*/
+    /*opacity: 0;*/
+    /*transition: all .3s linear;*/
+/*}*/
+/*.text-gray{*/
+    /*color: #888888;*/
+/*}*/
+.username{
+    display: inline-block;
+    /*border: 1px solid;*/
+    font-size: 16px;
+    margin-left: 2%;
+    /*vertical-align: middle;*/
+
+}
+.head{
+    /*background-color: #fafafa;*/
+    box-shadow: 2px 2px 2px 2px #f6f6f6;
+}
+.head>a{
+    text-decoration: none;
+    color:#3e3e3e ;
+    display: inline-block;
+    width: 13%;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    border: 1px solid #3e3e3e;
+    margin-left: 60%;
+}
+.P-img{
+    display: inline-block;
+    margin-left: 5%;
+    width:8%;
+    height: 8%;
+    /*border: 1px solid;*/
+    border-radius: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+/*hr{*/
+    /*height: 5px;*/
+    /*width: 80%;*/
+    /*margin: auto;*/
+/*}*/
+.member-box{
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    background-color: #e23d4b;
+    border-radius: 50px;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+}
+.row{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hoverBox{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.hover:hover{
+    box-shadow:2px 2px 5px 2px #c4c4c4;
+}
+.moveSP{
+    margin-left: 4%;
+}
+#goSet{
+    display: inline-block;
+    text-decoration: none;
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: #2a2a2a;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
